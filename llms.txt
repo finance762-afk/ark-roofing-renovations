@@ -1,0 +1,55 @@
+# Ark Roofing & Renovations LLC
+
+## Company Information
+- Name: Ark Roofing & Renovations LLC
+- Owner: Wil Letourneau
+- Industry: Roofing & General Contractor
+- Founded: 2002
+- Years in Business: 23+
+- Licensed & Insured: Yes
+
+## Contact
+- Phone: (253) 777-9683
+- Email: letourneauwil@gmail.com
+- Address: 18214 25th Ave E, Tacoma, WA 98445
+- Hours: Monday–Saturday 8:00 AM – 5:30 PM, Sunday Closed
+
+## Service Area
+50-mile radius of Tacoma, WA covering:
+- Pierce County
+- South King County
+- Thurston County
+- Kitsap County
+
+## Services
+1. Roofing — full replacements, tear-offs, repairs, storm damage
+2. Siding — installation, replacement, rot repair, weather barrier
+3. Decking — custom builds, rebuilds, demolition, framing
+4. Soffit & Fascia — repair and replacement
+5. Fences — wood, vinyl, chain-link installation and repair
+6. Gutters — seamless installation, repair, downspout routing
+7. Roof Cleaning — moss removal, soft wash, preventive treatment
+8. Emergency Services — storm damage, tarping, urgent repairs
+9. Flooring — hardwood, laminate, vinyl plank, tile
+10. Bathrooms — full remodels, tile, fixtures, plumbing
+11. Drywall — installation, repair, water damage restoration
+12. Painting — interior and exterior, prep and finish
+
+## Website Pages
+- Home: /
+- Services: /services
+- Roofing: /services/roofing
+- Siding: /services/siding
+- Decking: /services/decking
+- Soffit & Fascia: /services/soffit-and-fascia
+- Fences: /services/fences
+- Gutters: /services/gutters
+- Roof Cleaning: /services/roof-cleaning
+- Emergency Services: /services/emergency-services
+- Flooring: /services/flooring
+- Bathrooms: /services/bathrooms
+- Drywall: /services/drywall
+- Painting: /services/painting
+- Service Area: /service-area
+- About: /about
+- Contact: /contact

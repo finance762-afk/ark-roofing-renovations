@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+Disallow: /thank-you/
+Disallow: /includes/
+
+Sitemap: https://www.arkroofingpros.com/sitemap.xml
+Sitemap: https://www.arkroofingpros.com/sitemap-images.xml

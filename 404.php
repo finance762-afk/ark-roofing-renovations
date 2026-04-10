@@ -1,7 +1,7 @@
 <?php
 $pageTitle       = "Page Not Found | Ark Roofing & Renovations LLC";
 $pageDescription = "The page you're looking for doesn't exist. Return to the Ark Roofing & Renovations homepage or browse our services.";
-$canonicalUrl    = "https://www.arkroofingpros.com/404";
+$canonicalUrl    = "https://arkroofingpro.com/404";
 $ogImage         = "https://i.imgur.com/q0vb42l.jpeg";
 $currentPage     = "";
 $heroImage       = "";

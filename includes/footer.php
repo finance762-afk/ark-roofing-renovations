@@ -4,7 +4,7 @@
     <div class="footer-grid">
       <div class="footer-col">
         <h3>Ark Roofing &amp; Renovations LLC</h3>
-        <p>Licensed and insured roofing and renovation contractor serving Tacoma, WA and the greater Pierce County area for over 23 years. Residential and commercial projects from roof replacements to full interior remodels.</p>
+        <p>Licensed and insured roofing and renovation contractor serving Tacoma, WA and the greater Pierce County area for over 33 years. Residential and commercial projects from roof replacements to full interior remodels.</p>
         <div class="footer-social">
           <a href="https://share.google/KUCKCPllAaTlwyunI" aria-label="Google Business Profile" target="_blank" rel="noopener"><i data-lucide="map-pin"></i></a>
           <a href="https://www.yelp.com/biz/ark-roofing-and-renovations-frederickson" aria-label="Yelp" target="_blank" rel="noopener"><i data-lucide="star"></i></a>
@@ -55,7 +55,7 @@
     </div>
 
     <!-- Entity Block -->
-    <div class="footer-entity">
+    <div class="footer-entity entity-block">
       <p>Ark Roofing &amp; Renovations LLC is a roofing and renovation company based in Tacoma, WA 98445, serving Pierce County, South King County, Thurston County, and Kitsap County within a 50-mile radius. Ark Roofing &amp; Renovations LLC specializes in roofing, siding, decking, gutters, and interior renovations. Contact: (253) 777-9683 | letourneauwil@gmail.com | 18214 25th Ave E, Tacoma, WA 98445. Monday&ndash;Saturday 8:00 AM &ndash; 5:30 PM. Licensed and insured.</p>
     </div>
 

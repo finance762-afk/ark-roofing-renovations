@@ -1,7 +1,7 @@
 <?php
 $pageTitle       = "Ark Roofing & Renovations LLC | Roofing & Home Renovation in Tacoma, WA";
-$pageDescription = "Ark Roofing & Renovations has served Tacoma and Pierce County for 23+ years. Roofing, siding, decking, gutters, and interior renovations. Licensed & insured. Free estimates. (253) 777-9683.";
-$canonicalUrl    = "https://www.arkroofingpros.com";
+$pageDescription = "Ark Roofing & Renovations has served Tacoma and Pierce County for 33+ years. Roofing, siding, decking, gutters, and interior renovations. Licensed & insured. Free estimates. (253) 777-9683.";
+$canonicalUrl    = "https://arkroofingpro.com";
 $ogImage         = "https://i.imgur.com/q0vb42l.jpeg";
 $currentPage     = "home";
 $heroImage       = "https://i.imgur.com/q0vb42l.jpeg";
@@ -15,7 +15,7 @@ $schemaMarkup    = '{
       "@type": "LocalBusiness",
       "name": "Ark Roofing & Renovations LLC",
       "image": "https://i.imgur.com/q0vb42l.jpeg",
-      "url": "https://www.arkroofingpros.com",
+      "url": "https://arkroofingpro.com",
       "telephone": "+12537779683",
       "email": "letourneauwil@gmail.com",
       "address": {
@@ -63,12 +63,57 @@ $schemaMarkup    = '{
     {
       "@type": "WebSite",
       "name": "Ark Roofing & Renovations LLC",
-      "url": "https://www.arkroofingpros.com",
+      "url": "https://arkroofingpro.com",
       "potentialAction": {
         "@type": "SearchAction",
-        "target": "https://www.arkroofingpros.com/?s={search_term_string}",
+        "target": "https://arkroofingpro.com/?s={search_term_string}",
         "query-input": "required name=search_term_string"
       }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How long does a roof replacement take in Tacoma?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Most residential roof replacements take 2-4 days depending on the size of the home, number of layers to tear off, and weather conditions. A standard single-story home with one layer of shingles is typically completed in 2 days. Larger homes, multi-layer tear-offs, or jobs requiring sheathing replacement may take 3-5 days."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you handle insurance claims for storm damage?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Ark Roofing & Renovations works with your insurance company throughout the claims process, providing detailed damage assessments, photo documentation, and itemized repair estimates that adjusters need."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is included in your free estimate?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Our free estimates include a full inspection of the work area, measurements, material recommendations, and a written quote with line-item pricing. For roofing, we check the sheathing condition, flashing, vents, and gutters."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can you replace siding and roofing at the same time?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Absolutely. Bundling roofing and siding work together saves on labor, reduces the overall project timeline, and ensures the entire building envelope is sealed properly. Many clients save 10-15% by combining exterior projects."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do you offer emergency roofing services?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Ark Roofing & Renovations provides emergency tarping and temporary repairs for storm damage, fallen trees, and active leaks. Call (253) 777-9683 for rapid response to secure your property and prevent further damage."
+          }
+        }
+      ]
     }
   ]
 }';
@@ -82,8 +127,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <!-- ========== HERO ========== -->
   <section class="hero" style="background-image: url('https://i.imgur.com/q0vb42l.jpeg');">
     <div class="container">
-      <h1>Tacoma's Trusted Roofing &amp; Renovation Contractor &mdash; 23 Years Strong</h1>
-      <p>From roof replacements to full interior remodels, Ark Roofing &amp; Renovations has protected Pierce County homes and businesses since 2002.</p>
+      <h1>Tacoma's Trusted Roofing &amp; Renovation Contractor &mdash; 33 Years Strong</h1>
+      <p>From roof replacements to full interior remodels, Ark Roofing &amp; Renovations has protected Pierce County homes and businesses since 1992.</p>
       <div class="hero-cta">
         <a href="/contact" class="btn-primary">Get a Free Estimate</a>
         <a href="/services" class="btn-secondary" style="border-color:#fff;color:#fff;">Our Services</a>
@@ -100,7 +145,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="background: var(--bg-warm); padding: var(--space-lg) 0;">
     <div class="container">
       <div class="badge-strip">
-        <div class="badge"><i data-lucide="award" style="width:20px;height:20px;color:var(--accent)"></i> 23+ Years Experience</div>
+        <div class="badge"><i data-lucide="award" style="width:20px;height:20px;color:var(--accent)"></i> 33+ years Experience</div>
         <div class="badge"><i data-lucide="building-2" style="width:20px;height:20px;color:var(--accent)"></i> Residential &amp; Commercial</div>
         <div class="badge"><i data-lucide="map" style="width:20px;height:20px;color:var(--accent)"></i> 50-Mile Service Radius</div>
         <div class="badge"><i data-lucide="shield-check" style="width:20px;height:20px;color:var(--accent)"></i> Licensed &amp; Insured</div>
@@ -201,7 +246,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div data-animate="fade-up">
           <span class="eyebrow-label">Why Ark</span>
           <h2 class="section-title">Why Tacoma Homeowners Choose Ark</h2>
-          <p class="prose" style="margin-bottom: var(--space-xl); color: var(--text-light);">After 23 years of working on homes across Pierce County, we've earned our reputation the hard way &mdash; one project at a time. Here's what sets Ark apart from the competition.</p>
+          <p class="prose" style="margin-bottom: var(--space-xl); color: var(--text-light);">After 33 years of working on homes across Pierce County, we've earned our reputation the hard way &mdash; one project at a time. Here's what sets Ark apart from the competition.</p>
           <ul class="why-choose-list">
             <li>
               <span class="check-icon"><i data-lucide="check"></i></span>
@@ -209,7 +254,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
             </li>
             <li>
               <span class="check-icon"><i data-lucide="check"></i></span>
-              <span><strong>23 years of field experience</strong> &mdash; not sales experience, actual tools-in-hand trade knowledge</span>
+              <span><strong>33 years of field experience</strong> &mdash; not sales experience, actual tools-in-hand trade knowledge</span>
             </li>
             <li>
               <span class="check-icon"><i data-lucide="check"></i></span>
@@ -239,7 +284,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="grid-2 grid-4-desktop" style="text-align:center;" data-animate="fade-up">
         <div class="stat-counter">
-          <div class="stat-number" data-count="23" data-suffix="+">0+</div>
+          <div class="stat-number" data-count="33" data-suffix="+">0+</div>
           <div class="stat-label">Years in Business</div>
         </div>
         <div class="stat-counter">
@@ -294,11 +339,11 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <div class="split-reverse" data-animate="fade-up">
         <div>
           <span class="eyebrow-label">About Ark</span>
-          <h2 class="section-title">23 Years of Hands-On Craftsmanship</h2>
+          <h2 class="section-title">33 Years of Hands-On Craftsmanship</h2>
           <div class="prose">
-            <p style="margin-bottom: var(--space-md);">Ark Roofing &amp; Renovations LLC has protected Tacoma-area homes and businesses for over 23 years. Founded by Wil Letourneau, the company started as a focused roofing operation and grew into a full-service exterior and interior renovation contractor.</p>
+            <p style="margin-bottom: var(--space-md);">Ark Roofing &amp; Renovations LLC has protected Tacoma-area homes and businesses for over 33 years. Founded by Wil Letourneau, the company started as a focused roofing operation and grew into a full-service exterior and interior renovation contractor.</p>
             <p style="margin-bottom: var(--space-md);">Wil and his crew bring hands-on experience to every job. They've torn off thousands of roofs, replaced rotted sheathing hidden behind failing siding, and rebuilt decks down to the footings. That kind of field knowledge means problems get caught early and fixed right &mdash; not patched over.</p>
-            <p style="margin-bottom: var(--space-xl);">Whether it's storm damage that needs immediate attention or a planned renovation, the team delivers consistent craftsmanship backed by two decades of earned reputation.</p>
+            <p style="margin-bottom: var(--space-xl);">Whether it's storm damage that needs immediate attention or a planned renovation, the team delivers consistent craftsmanship backed by three decades of earned reputation.</p>
           </div>
           <a href="/about" class="btn-primary">Meet the Team</a>
         </div>
@@ -315,7 +360,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="cta-banner">
     <div class="container">
       <h2 class="section-title">Need a Roof Inspection or Renovation Estimate?</h2>
-      <p style="font-size: 1.1rem; opacity: 0.9; margin-bottom: var(--space-lg); max-width: 600px; margin-inline: auto;">Free estimates for roofing, siding, decking, and interior projects across Pierce County. No pressure, no hidden fees &mdash; just an honest assessment from a 23-year veteran contractor.</p>
+      <p style="font-size: 1.1rem; opacity: 0.9; margin-bottom: var(--space-lg); max-width: 600px; margin-inline: auto;">Free estimates for roofing, siding, decking, and interior projects across Pierce County. No pressure, no hidden fees &mdash; just an honest assessment from a 33-year veteran contractor.</p>
       <a href="tel:+12537779683" class="hero-phone" style="color:#fff; justify-content:center; margin-bottom: var(--space-lg);">
         <i data-lucide="phone"></i> (253) 777-9683
       </a>
@@ -385,7 +430,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="closing-cta" data-animate="fade-up">
     <div class="container">
       <h2 class="section-title">Ready to Protect Your Investment?</h2>
-      <p style="font-size: 1.1rem; color: rgba(255,255,255,0.8); max-width: 550px; margin-inline: auto; margin-bottom: var(--space-lg);">Whether it's a full roof replacement, siding project, or emergency repair &mdash; get a straight answer and an honest estimate from a contractor who's been doing this for 23 years.</p>
+      <p style="font-size: 1.1rem; color: rgba(255,255,255,0.8); max-width: 550px; margin-inline: auto; margin-bottom: var(--space-lg);">Whether it's a full roof replacement, siding project, or emergency repair &mdash; get a straight answer and an honest estimate from a contractor who's been doing this for 33 years.</p>
       <a href="tel:+12537779683" class="hero-phone" style="margin-bottom: var(--space-xl);">
         <i data-lucide="phone"></i> (253) 777-9683
       </a>
@@ -396,55 +441,5 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   </section>
 
 </main>
-
-<!-- FAQPage Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long does a roof replacement take in Tacoma?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Most residential roof replacements take 2–4 days depending on the size of the home, number of layers to tear off, and weather conditions. A standard single-story home with one layer of shingles is typically completed in 2 days. Larger homes, multi-layer tear-offs, or jobs requiring sheathing replacement may take 3–5 days."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you handle insurance claims for storm damage?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Ark Roofing & Renovations works with your insurance company throughout the claims process, providing detailed damage assessments, photo documentation, and itemized repair estimates that adjusters need."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What's included in your free estimate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Our free estimates include a full inspection of the work area, measurements, material recommendations, and a written quote with line-item pricing. For roofing, we check the sheathing condition, flashing, vents, and gutters — not just the shingles."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can you replace siding and roofing at the same time?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Absolutely — and it's often the smartest approach. Bundling roofing and siding work together saves on labor, reduces the overall project timeline, and ensures the entire building envelope is sealed properly. Many clients save 10–15% by combining exterior projects."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do you offer emergency roofing services?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes. Ark Roofing & Renovations provides emergency tarping and temporary repairs for storm damage, fallen trees, and active leaks. Call (253) 777-9683 for rapid response to secure your property and prevent further damage."
-      }
-    }
-  ]
-}
-</script>
 
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>

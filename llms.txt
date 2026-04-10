@@ -4,9 +4,10 @@
 - Name: Ark Roofing & Renovations LLC
 - Owner: Wil Letourneau
 - Industry: Roofing & General Contractor
-- Founded: 2002
-- Years in Business: 23+
+- Founded: 1992
+- Years in Business: 33+
 - Licensed & Insured: Yes
+- Website: https://arkroofingpro.com
 
 ## Contact
 - Phone: (253) 777-9683

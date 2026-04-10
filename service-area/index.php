@@ -1,7 +1,7 @@
 <?php
 $pageTitle       = "Service Area — Roofing & Renovations Within 50 Miles of Tacoma, WA";
 $pageDescription = "Ark Roofing & Renovations serves Tacoma, Lakewood, Puyallup, Federal Way, Olympia, Bremerton, and all communities within 50 miles. Roofing, siding, decking & more.";
-$canonicalUrl    = "https://www.arkroofingpros.com/service-area";
+$canonicalUrl    = "https://arkroofingpro.com/service-area";
 $ogImage         = "https://i.imgur.com/C85V48X.jpeg";
 $currentPage     = "service-area";
 $heroImage       = "";
@@ -14,8 +14,8 @@ $schemaMarkup    = '{
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.arkroofingpros.com"},
-        {"@type": "ListItem", "position": 2, "name": "Service Area", "item": "https://www.arkroofingpros.com/service-area"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://arkroofingpro.com"},
+        {"@type": "ListItem", "position": 2, "name": "Service Area", "item": "https://arkroofingpro.com/service-area"}
       ]
     },
     {
@@ -33,7 +33,8 @@ $schemaMarkup    = '{
         {"@type": "County", "name": "Thurston County", "containedInPlace": {"@type": "State", "name": "Washington"}},
         {"@type": "County", "name": "Kitsap County", "containedInPlace": {"@type": "State", "name": "Washington"}}
       ]
-    }
+    },
+    {"@type": "WebPage", "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".answer-block", ".entity-block", "h1"]}}
   ]
 }';
 
@@ -96,7 +97,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <div class="prose">
             <p style="margin-bottom: var(--space-md);">The Puget Sound region receives 37&ndash;50 inches of rain per year depending on location, spread across 150+ days of precipitation. That constant moisture, combined with mild temperatures and limited direct sunlight on north-facing surfaces, creates conditions that accelerate rot, moss growth, and material failure faster than almost anywhere else in the country.</p>
             <p style="margin-bottom: var(--space-md);">Roofs that last 30 years in Arizona last 20 here. Siding that stays dry in Colorado traps moisture behind it in Tacoma. Untreated decks rot in 10 years. Gutters clog with moss and debris quarterly. These aren't just maintenance issues &mdash; they're structural threats that compound when ignored.</p>
-            <p>After 23 years of working on homes across this region, Ark Roofing &amp; Renovations understands exactly what the Pacific Northwest does to buildings. We spec materials, underlayment, flashing, and ventilation specifically for these conditions &mdash; not generic specs designed for drier climates.</p>
+            <p>After 33 years of working on homes across this region, Ark Roofing &amp; Renovations understands exactly what the Pacific Northwest does to buildings. We spec materials, underlayment, flashing, and ventilation specifically for these conditions &mdash; not generic specs designed for drier climates.</p>
           </div>
         </div>
         <div>

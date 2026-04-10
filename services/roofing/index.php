@@ -1,7 +1,7 @@
 <?php
 $pageTitle       = "Roof Replacement & Repair in Tacoma, WA | Ark Roofing & Renovations";
-$pageDescription = "Tacoma's trusted roofing contractor for 23+ years. Full roof replacements, tear-offs, storm damage repair, and insurance claims. Licensed & insured. Free estimates. (253) 777-9683.";
-$canonicalUrl    = "https://www.arkroofingpros.com/services/roofing";
+$pageDescription = "Tacoma's trusted roofing contractor for 33+ years. Full roof replacements, tear-offs, storm damage repair, and insurance claims. Licensed & insured. Free estimates. (253) 777-9683.";
+$canonicalUrl    = "https://arkroofingpro.com/services/roofing";
 $ogImage         = "https://i.imgur.com/q0vb42l.jpeg";
 $currentPage     = "services";
 $heroImage       = "https://i.imgur.com/q0vb42l.jpeg";
@@ -14,9 +14,9 @@ $schemaMarkup    = '{
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.arkroofingpros.com"},
-        {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.arkroofingpros.com/services"},
-        {"@type": "ListItem", "position": 3, "name": "Roofing", "item": "https://www.arkroofingpros.com/services/roofing"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://arkroofingpro.com"},
+        {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://arkroofingpro.com/services"},
+        {"@type": "ListItem", "position": 3, "name": "Roofing", "item": "https://arkroofingpro.com/services/roofing"}
       ]
     },
     {
@@ -49,6 +49,34 @@ $schemaMarkup    = '{
         "ratingValue": "5.0",
         "reviewCount": "25"
       }
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "How long will my new roof last in the Tacoma climate?", "acceptedAnswer": {"@type": "Answer", "text": "Architectural asphalt shingles typically last 25-35 years in the Pacific Northwest when properly installed with adequate ventilation. The key factors are quality underlayment, proper flashing, and ridge venting to prevent moisture buildup."}},
+        {"@type": "Question", "name": "Can you roof during the rainy season?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, with precautions. We schedule around weather windows and always tarp exposed areas at the end of each work day. We will not start a tear-off when sustained heavy rain is forecasted."}},
+        {"@type": "Question", "name": "Do I need to replace the gutters when I get a new roof?", "acceptedAnswer": {"@type": "Answer", "text": "Not always, but it is often the most cost-effective time to do it. We remove and reset existing gutters during every roof replacement. If they are damaged or over 15 years old, replacing them during the roofing project saves costs."}},
+        {"@type": "Question", "name": "What roofing materials do you recommend for homes in Pierce County?", "acceptedAnswer": {"@type": "Answer", "text": "For most residential properties, we recommend architectural asphalt shingles from manufacturers like CertainTeed, GAF, or Owens Corning. They offer the best balance of durability, wind resistance, and value for the Pacific Northwest climate."}}
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "name": "How Ark Roofing & Renovations Replaces a Roof in Tacoma, WA",
+      "description": "The step-by-step process for a full residential roof replacement by Ark Roofing & Renovations in Tacoma and Pierce County.",
+      "step": [
+        {"@type": "HowToStep", "position": 1, "name": "Inspection & Estimate", "text": "Assess roof condition, check sheathing, measure the roof, and provide a written estimate with material options."},
+        {"@type": "HowToStep", "position": 2, "name": "Tear-Off", "text": "Strip all existing shingles and underlayment down to bare sheathing. Old material goes into a dumpster on-site."},
+        {"@type": "HowToStep", "position": 3, "name": "Sheathing Repair", "text": "Inspect every inch of the deck. Replace rotted or water-damaged plywood before anything goes on top."},
+        {"@type": "HowToStep", "position": 4, "name": "Underlayment & Flashing", "text": "Install ice and water shield at eaves and valleys, synthetic underlayment across the deck, new drip edge and flashing."},
+        {"@type": "HowToStep", "position": 5, "name": "Shingle Installation & Cleanup", "text": "Install new shingles to manufacturer spec, ridge vent for ventilation, full debris cleanup, and magnetic sweep."}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".answer-block", ".entity-block", "h1"]
+      }
     }
   ]
 }';
@@ -70,7 +98,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="hero" style="background-image: url('https://i.imgur.com/q0vb42l.jpeg'); min-height: 60vh;">
     <div class="container">
       <h1>Roof Replacement &amp; Repair in Tacoma, WA</h1>
-      <p>Full tear-offs, new installations, storm damage repair, and insurance claims &mdash; backed by 23 years of hands-on roofing experience across Pierce County.</p>
+      <p>Full tear-offs, new installations, storm damage repair, and insurance claims &mdash; backed by 33 years of hands-on roofing experience across Pierce County.</p>
       <div class="hero-cta">
         <a href="/contact" class="btn-primary">Get a Free Roofing Estimate</a>
         <a href="tel:+12537779683" class="hero-phone"><i data-lucide="phone"></i> (253) 777-9683</a>
@@ -82,8 +110,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="padding: var(--section-pad); background: var(--bg);">
     <div class="container">
       <div class="prose-centered">
-        <p style="font-size: 1.1rem; line-height: 1.7; margin-bottom: var(--space-lg);">A full roof replacement in Tacoma typically costs between $8,000 and $20,000 for a standard residential home, depending on size, pitch, material, and the number of layers to tear off. Most replacements take 2&ndash;4 days. Ark Roofing &amp; Renovations LLC has completed thousands of roof replacements across Pierce County since 2002, handling everything from single-layer strip-and-replace jobs to complex multi-layer tear-offs with sheathing repair underneath.</p>
-        <p style="font-size: 1.1rem; line-height: 1.7;">Ark Roofing &amp; Renovations has provided roofing services in Tacoma and Pierce County for over 23 years. We're licensed, insured, and experienced with both residential and commercial roofing systems. Every roof we install starts with a thorough inspection of the deck sheathing &mdash; because a new roof over rotted plywood is money wasted.</p>
+        <p style="font-size: 1.1rem; line-height: 1.7; margin-bottom: var(--space-lg);">A full roof replacement in Tacoma typically costs between $8,000 and $20,000 for a standard residential home, depending on size, pitch, material, and the number of layers to tear off. Most replacements take 2&ndash;4 days. Ark Roofing &amp; Renovations LLC has completed thousands of roof replacements across Pierce County since 1992, handling everything from single-layer strip-and-replace jobs to complex multi-layer tear-offs with sheathing repair underneath.</p>
+        <p style="font-size: 1.1rem; line-height: 1.7;">Ark Roofing &amp; Renovations has provided roofing services in Tacoma and Pierce County for over 33 years. We're licensed, insured, and experienced with both residential and commercial roofing systems. Every roof we install starts with a thorough inspection of the deck sheathing &mdash; because a new roof over rotted plywood is money wasted.</p>
       </div>
     </div>
   </section>
@@ -112,17 +140,23 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <!-- Answer Block -->
   <section style="padding: var(--section-pad); background: var(--bg);">
     <div class="container">
-      <div class="answer-block" data-animate="fade-up">
-        <h2>How much does a roof replacement cost in Tacoma?</h2>
-        <p class="prose">Most residential roof replacements in the Tacoma area run between $8,000 and $20,000. A basic single-story home with one layer of shingles is on the lower end. Larger homes, steep pitches, multiple tear-off layers, sheathing replacement, or architectural shingles push the cost higher. We provide detailed line-item estimates so you know exactly what you're paying for.</p>
+      <div class="answer-block" data-animate="fade-up" itemscope itemtype="https://schema.org/Question">
+        <h2 itemprop="name">How much does a roof replacement cost in Tacoma?</h2>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p class="prose" itemprop="text">Most residential roof replacements in the Tacoma area run between $8,000 and $20,000. A basic single-story home with one layer of shingles is on the lower end. Larger homes, steep pitches, multiple tear-off layers, sheathing replacement, or architectural shingles push the cost higher. We provide detailed line-item estimates so you know exactly what you're paying for.</p>
+        </div>
       </div>
-      <div class="answer-block" data-animate="fade-up">
-        <h2>What's included in a full roof replacement?</h2>
-        <p class="prose">A complete tear-off of existing shingles and underlayment, inspection and repair of deck sheathing, installation of ice and water shield at eaves and valleys, synthetic underlayment (we use APOC Gator-Skin), new drip edge, new flashing at walls and penetrations, ridge vent for ventilation, and new asphalt shingles. We also handle permits when required by Pierce County.</p>
+      <div class="answer-block" data-animate="fade-up" itemscope itemtype="https://schema.org/Question">
+        <h2 itemprop="name">What's included in a full roof replacement?</h2>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p class="prose" itemprop="text">A complete tear-off of existing shingles and underlayment, inspection and repair of deck sheathing, installation of ice and water shield at eaves and valleys, synthetic underlayment (we use APOC Gator-Skin), new drip edge, new flashing at walls and penetrations, ridge vent for ventilation, and new asphalt shingles. We also handle permits when required by Pierce County.</p>
+        </div>
       </div>
-      <div class="answer-block" data-animate="fade-up">
-        <h3>Do you handle roofing and siding together?</h3>
-        <p class="prose">Yes &mdash; and it's often the smartest approach. When we strip <a href="/services/siding">siding</a>, we expose the sheathing and can address rot or water damage before the new roof goes on. Many Tacoma homeowners save 10&ndash;15% by bundling exterior projects. We also install <a href="/services/gutters">gutters</a> and <a href="/services/soffit-and-fascia">soffit and fascia</a> during roofing projects.</p>
+      <div class="answer-block" data-animate="fade-up" itemscope itemtype="https://schema.org/Question">
+        <h3 itemprop="name">Do you handle roofing and siding together?</h3>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p class="prose" itemprop="text">Yes &mdash; and it's often the smartest approach. When we strip <a href="/services/siding">siding</a>, we expose the sheathing and can address rot or water damage before the new roof goes on. Many Tacoma homeowners save 10&ndash;15% by bundling exterior projects. We also install <a href="/services/gutters">gutters</a> and <a href="/services/soffit-and-fascia">soffit and fascia</a> during roofing projects.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -230,7 +264,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <div class="prose">
             <p style="margin-bottom: var(--space-md);">Some contractors will layer new shingles over old ones to save time and cost. We don't. In the Pacific Northwest, moisture gets trapped between layers, accelerating rot in the sheathing underneath. An overlay hides problems &mdash; a tear-off reveals them.</p>
             <p style="margin-bottom: var(--space-md);">Every roof we replace gets stripped to bare sheathing. We inspect every board for soft spots, water staining, and mold. Damaged sections get cut out and replaced with new plywood or OSB before underlayment goes down. It's more work up front, but it means the roof you're paying for is built on a solid foundation.</p>
-            <p>After 23 years of tearing off roofs in Tacoma, we can tell you that the majority of roofs over 20 years old have at least some sheathing damage. Catching it now costs hundreds. Missing it costs thousands later.</p>
+            <p>After 33 years of tearing off roofs in Tacoma, we can tell you that the majority of roofs over 20 years old have at least some sheathing damage. Catching it now costs hundreds. Missing it costs thousands later.</p>
           </div>
         </div>
         <div>
@@ -293,7 +327,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="closing-cta" data-animate="fade-up">
     <div class="container">
       <h2 class="section-title">Protect Your Home With a Roof Built to Last</h2>
-      <p style="font-size: 1.1rem; color: rgba(255,255,255,0.8); max-width: 550px; margin-inline: auto; margin-bottom: var(--space-lg);">23 years. Thousands of roofs. One standard &mdash; get it right the first time. Call for a free estimate on your Tacoma roofing project.</p>
+      <p style="font-size: 1.1rem; color: rgba(255,255,255,0.8); max-width: 550px; margin-inline: auto; margin-bottom: var(--space-lg);">33 years. Thousands of roofs. One standard &mdash; get it right the first time. Call for a free estimate on your Tacoma roofing project.</p>
       <a href="tel:+12537779683" class="hero-phone" style="margin-bottom: var(--space-xl);">
         <i data-lucide="phone"></i> (253) 777-9683
       </a>
@@ -308,64 +342,5 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   </div>
 
 </main>
-
-<!-- FAQPage Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "How long will my new roof last in the Tacoma climate?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Architectural asphalt shingles typically last 25–35 years in the Pacific Northwest when properly installed with adequate ventilation. The key factors are quality underlayment, proper flashing, and ridge venting to prevent moisture buildup."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Can you roof during the rainy season?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, with precautions. We schedule around weather windows and always tarp exposed areas at the end of each work day. We won't start a tear-off when sustained heavy rain is forecasted."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Do I need to replace the gutters when I get a new roof?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Not always, but it's often the most cost-effective time to do it. We remove and reset existing gutters during every roof replacement. If they're damaged or over 15 years old, replacing them during the roofing project saves costs."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "What roofing materials do you recommend for homes in Pierce County?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "For most residential properties, we recommend architectural asphalt shingles from manufacturers like CertainTeed, GAF, or Owens Corning. They offer the best balance of durability, wind resistance, and value for the Pacific Northwest climate."
-      }
-    }
-  ]
-}
-</script>
-
-<!-- HowTo Schema -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How Ark Roofing & Renovations Replaces a Roof in Tacoma, WA",
-  "description": "The step-by-step process for a full residential roof replacement by Ark Roofing & Renovations in Tacoma and Pierce County.",
-  "step": [
-    {"@type": "HowToStep", "position": 1, "name": "Inspection & Estimate", "text": "Assess roof condition, check sheathing, measure the roof, and provide a written estimate with material options."},
-    {"@type": "HowToStep", "position": 2, "name": "Tear-Off", "text": "Strip all existing shingles and underlayment down to bare sheathing. Old material goes into a dumpster on-site."},
-    {"@type": "HowToStep", "position": 3, "name": "Sheathing Repair", "text": "Inspect every inch of the deck. Replace rotted or water-damaged plywood before anything goes on top."},
-    {"@type": "HowToStep", "position": 4, "name": "Underlayment & Flashing", "text": "Install ice and water shield at eaves and valleys, synthetic underlayment across the deck, new drip edge and flashing."},
-    {"@type": "HowToStep", "position": 5, "name": "Shingle Installation & Cleanup", "text": "Install new shingles to manufacturer spec, ridge vent for ventilation, full debris cleanup, and magnetic sweep."}
-  ]
-}
-</script>
 
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>

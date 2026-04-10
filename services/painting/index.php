@@ -1,7 +1,7 @@
 <?php
 $pageTitle       = "Interior & Exterior Painting in Tacoma, WA | Ark Roofing & Renovations";
 $pageDescription = "Professional interior and exterior painting in Tacoma and Pierce County. Prep, prime, and paint for lasting finishes. Often paired with siding and drywall projects. Free estimates.";
-$canonicalUrl    = "https://www.arkroofingpros.com/services/painting";
+$canonicalUrl    = "https://arkroofingpro.com/services/painting";
 $ogImage         = "https://i.imgur.com/35QsJpi.jpeg";
 $currentPage     = "services";
 $heroImage       = "https://i.imgur.com/35QsJpi.jpeg";
@@ -12,12 +12,18 @@ $schemaMarkup    = '{
   "@context": "https://schema.org",
   "@graph": [
     {"@type": "BreadcrumbList", "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.arkroofingpros.com"},
-      {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.arkroofingpros.com/services"},
-      {"@type": "ListItem", "position": 3, "name": "Painting", "item": "https://www.arkroofingpros.com/services/painting"}
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://arkroofingpro.com"},
+      {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://arkroofingpro.com/services"},
+      {"@type": "ListItem", "position": 3, "name": "Painting", "item": "https://arkroofingpro.com/services/painting"}
     ]},
     {"@type": "Service", "serviceType": "Painting", "provider": {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "telephone": "+12537779683"}, "areaServed": {"@type": "City", "name": "Tacoma", "addressRegion": "WA"}},
-    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}}
+    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}},
+    {"@type": "FAQPage", "mainEntity": [
+      {"@type": "Question", "name": "How long does exterior paint last in Tacoma?", "acceptedAnswer": {"@type": "Answer", "text": "With proper prep and premium paint, exterior paint lasts 5-8 years on wood siding in the Pacific Northwest."}},
+      {"@type": "Question", "name": "Can you paint in the rain?", "acceptedAnswer": {"@type": "Answer", "text": "No. Exterior paint needs dry surfaces and 24 hours without rain. Interior painting can proceed regardless of weather."}},
+      {"@type": "Question", "name": "Do you paint after drywall repair?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Painting is the final step in every drywall project. We prime and paint to match existing wall color."}}
+    ]},
+    {"@type": "WebPage", "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".answer-block", ".entity-block", "h1"]}}
   ]
 }';
 
@@ -46,7 +52,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="prose-centered">
         <p style="font-size: 1.1rem; line-height: 1.7; margin-bottom: var(--space-lg);">Interior painting in Tacoma costs $2&ndash;$4 per square foot of wall area, or roughly $1,500&ndash;$4,000 per average room including prep, primer, and two coats. Exterior painting costs $3,000&ndash;$8,000 for a typical single-story home, depending on the condition of the existing surface, amount of prep work needed, and total square footage. Most interior rooms take 1&ndash;2 days; full exterior projects take 4&ndash;7 days.</p>
-        <p style="font-size: 1.1rem; line-height: 1.7;">Ark Roofing &amp; Renovations has provided painting services in Tacoma and Pierce County for over 23 years. Painting is often the finishing step on our <a href="/services/siding">siding</a>, <a href="/services/drywall">drywall</a>, and <a href="/services/bathrooms">bathroom</a> projects &mdash; having one contractor handle everything from structural repair through final paint means seamless results and no finger-pointing between trades.</p>
+        <p style="font-size: 1.1rem; line-height: 1.7;">Ark Roofing &amp; Renovations has provided painting services in Tacoma and Pierce County for over 33 years. Painting is often the finishing step on our <a href="/services/siding">siding</a>, <a href="/services/drywall">drywall</a>, and <a href="/services/bathrooms">bathroom</a> projects &mdash; having one contractor handle everything from structural repair through final paint means seamless results and no finger-pointing between trades.</p>
       </div>
     </div>
   </section>
@@ -73,13 +79,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
   <section style="padding: var(--section-pad); background: var(--bg);">
     <div class="container">
-      <div class="answer-block" data-animate="fade-up">
-        <h2>How much does it cost to paint a house exterior in Tacoma?</h2>
-        <p class="prose">Exterior painting costs $3,000&ndash;$8,000 for a typical single-story home. Two-story homes run $5,000&ndash;$12,000 due to ladder and scaffold requirements. Prices include power washing, scraping, caulking, priming bare areas, and two coats of premium exterior paint. Homes with extensive peeling, wood rot, or lead paint (pre-1978) require additional prep that increases the cost.</p>
+      <div class="answer-block" data-animate="fade-up" itemscope itemtype="https://schema.org/Question">
+        <h2 itemprop="name">How much does it cost to paint a house exterior in Tacoma?</h2>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p class="prose" itemprop="text">Exterior painting costs $3,000&ndash;$8,000 for a typical single-story home. Two-story homes run $5,000&ndash;$12,000 due to ladder and scaffold requirements. Prices include power washing, scraping, caulking, priming bare areas, and two coats of premium exterior paint. Homes with extensive peeling, wood rot, or lead paint (pre-1978) require additional prep that increases the cost.</p>
+        </div>
       </div>
-      <div class="answer-block" data-animate="fade-up">
-        <h3>What type of paint is best for Tacoma's climate?</h3>
-        <p class="prose">100% acrylic latex paint is the standard for Pacific Northwest exteriors. It flexes with temperature changes, breathes to allow moisture vapor to escape, and resists mildew. We use premium brands like Sherwin-Williams Duration or Benjamin Moore Aura Exterior for their proven performance in wet climates. Satin or semi-gloss finish on trim resists moisture better than flat.</p>
+      <div class="answer-block" data-animate="fade-up" itemscope itemtype="https://schema.org/Question">
+        <h3 itemprop="name">What type of paint is best for Tacoma's climate?</h3>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p class="prose" itemprop="text">100% acrylic latex paint is the standard for Pacific Northwest exteriors. It flexes with temperature changes, breathes to allow moisture vapor to escape, and resists mildew. We use premium brands like Sherwin-Williams Duration or Benjamin Moore Aura Exterior for their proven performance in wet climates. Satin or semi-gloss finish on trim resists moisture better than flat.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -151,13 +161,5 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
   <div class="container" style="padding: var(--space-lg) 0;"><p style="font-size: 0.85rem; color: var(--text-light);">Last Updated: <?php echo date('F Y'); ?></p></div>
 </main>
-
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-  {"@type":"Question","name":"How long does exterior paint last in Tacoma?","acceptedAnswer":{"@type":"Answer","text":"With proper prep and premium paint, exterior paint lasts 5–8 years on wood siding in the Pacific Northwest."}},
-  {"@type":"Question","name":"Can you paint in the rain?","acceptedAnswer":{"@type":"Answer","text":"No. Exterior paint needs dry surfaces and 24 hours without rain. Interior painting can proceed regardless of weather."}},
-  {"@type":"Question","name":"Do you paint after drywall repair?","acceptedAnswer":{"@type":"Answer","text":"Yes. Painting is the final step in every drywall project. We prime and paint to match existing wall color."}}
-]}
-</script>
 
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>

@@ -1,7 +1,7 @@
 <?php
 $pageTitle       = "Our Services | Roofing, Renovations & More | Ark Roofing & Renovations LLC";
-$pageDescription = "Ark Roofing & Renovations provides roofing, siding, decking, gutters, fences, and interior renovation services across Tacoma and Pierce County. Licensed & insured. 23+ years experience.";
-$canonicalUrl    = "https://www.arkroofingpros.com/services";
+$pageDescription = "Ark Roofing & Renovations provides roofing, siding, decking, gutters, fences, and interior renovation services across Tacoma and Pierce County. Licensed & insured. 33+ years experience.";
+$canonicalUrl    = "https://arkroofingpro.com/services";
 $ogImage         = "https://i.imgur.com/q0vb42l.jpeg";
 $currentPage     = "services";
 $heroImage       = "";
@@ -10,10 +10,14 @@ $useTilt         = false;
 $useTyped        = false;
 $schemaMarkup    = '{
   "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.arkroofingpros.com"},
-    {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.arkroofingpros.com/services"}
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://arkroofingpro.com"},
+        {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://arkroofingpro.com/services"}
+      ]
+    }
   ]
 }';
 
@@ -35,7 +39,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <h1 class="section-title">Our Services &mdash; Roofing, Renovations &amp; More in Tacoma, WA</h1>
       <div class="prose">
-        <p>Ark Roofing &amp; Renovations LLC is a licensed and insured roofing and renovation contractor based in Tacoma, WA, serving Pierce County and the surrounding area for over 23 years. Whether you need a full roof replacement, new siding over rotted sheathing, a custom deck build, or an interior remodel, we handle projects from ridgeline to foundation &mdash; all under one contractor.</p>
+        <p>Ark Roofing &amp; Renovations LLC is a licensed and insured roofing and renovation contractor based in Tacoma, WA, serving Pierce County and the surrounding area for over 33 years. Whether you need a full roof replacement, new siding over rotted sheathing, a custom deck build, or an interior remodel, we handle projects from ridgeline to foundation &mdash; all under one contractor.</p>
         <p style="margin-top: var(--space-md);">Every project starts with an honest assessment. We tell you what needs attention now, what can wait, and what it will cost &mdash; no pressure, no surprises. Call <a href="tel:+12537779683">(253) 777-9683</a> for a free estimate.</p>
       </div>
     </div>
@@ -125,7 +129,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="cta-banner">
     <div class="container">
       <h2 class="section-title">Ready to Start Your Project?</h2>
-      <p style="font-size: 1.1rem; opacity: 0.9; margin-bottom: var(--space-lg); max-width: 600px; margin-inline: auto;">Get a free, no-pressure estimate from a contractor with 23 years of experience across Pierce County. We'll tell you exactly what you need &mdash; and what you don't.</p>
+      <p style="font-size: 1.1rem; opacity: 0.9; margin-bottom: var(--space-lg); max-width: 600px; margin-inline: auto;">Get a free, no-pressure estimate from a contractor with 33 years of experience across Pierce County. We'll tell you exactly what you need &mdash; and what you don't.</p>
       <a href="tel:+12537779683" class="hero-phone" style="color:#fff; justify-content:center; margin-bottom: var(--space-lg);">
         <i data-lucide="phone"></i> (253) 777-9683
       </a>

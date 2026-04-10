@@ -1,7 +1,7 @@
 <?php
 $pageTitle       = "Siding Installation & Repair in Tacoma, WA | Ark Roofing & Renovations";
-$pageDescription = "Expert siding installation, rot repair, and sheathing replacement in Tacoma and Pierce County. Vinyl, board-and-batten, and fiber cement siding. 23+ years experience. Free estimates.";
-$canonicalUrl    = "https://www.arkroofingpros.com/services/siding";
+$pageDescription = "Expert siding installation, rot repair, and sheathing replacement in Tacoma and Pierce County. Vinyl, board-and-batten, and fiber cement siding. 33+ years experience. Free estimates.";
+$canonicalUrl    = "https://arkroofingpro.com/services/siding";
 $ogImage         = "https://i.imgur.com/35QsJpi.jpeg";
 $currentPage     = "services";
 $heroImage       = "https://i.imgur.com/35QsJpi.jpeg";
@@ -14,9 +14,9 @@ $schemaMarkup    = '{
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.arkroofingpros.com"},
-        {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.arkroofingpros.com/services"},
-        {"@type": "ListItem", "position": 3, "name": "Siding", "item": "https://www.arkroofingpros.com/services/siding"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://arkroofingpro.com"},
+        {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://arkroofingpro.com/services"},
+        {"@type": "ListItem", "position": 3, "name": "Siding", "item": "https://arkroofingpro.com/services/siding"}
       ]
     },
     {
@@ -34,6 +34,31 @@ $schemaMarkup    = '{
       "@type": "LocalBusiness",
       "name": "Ark Roofing & Renovations LLC",
       "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "How long does a siding replacement take?", "acceptedAnswer": {"@type": "Answer", "text": "Most residential siding replacements take 3-7 days depending on house size, sheathing damage, and siding type."}},
+        {"@type": "Question", "name": "Should I replace siding and roofing at the same time?", "acceptedAnswer": {"@type": "Answer", "text": "If both are aging, yes. Bundling roofing and siding work saves 10-15% and allows inspection of the entire building envelope."}},
+        {"@type": "Question", "name": "Can you match new siding to existing sections?", "acceptedAnswer": {"@type": "Answer", "text": "In many cases, yes. For vinyl siding, matching profile and color is usually straightforward if the product is still manufactured."}}
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "name": "How Ark Roofing & Renovations Replaces Siding in Tacoma, WA",
+      "step": [
+        {"@type": "HowToStep", "position": 1, "name": "Strip & Inspect", "text": "Remove all existing siding and inspect sheathing for rot, mold, and moisture damage."},
+        {"@type": "HowToStep", "position": 2, "name": "Repair Sheathing", "text": "Cut out and replace damaged OSB or plywood. Treat mold on framing."},
+        {"@type": "HowToStep", "position": 3, "name": "Weather Barrier", "text": "Install Jumbo Tex housewrap with taped seams, flash all windows and doors."},
+        {"@type": "HowToStep", "position": 4, "name": "Siding Installation", "text": "Install new siding with proper nailing, caulking, and trim work."}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".answer-block", ".entity-block", "h1"]
+      }
     }
   ]
 }';
@@ -54,7 +79,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="hero" style="background-image: url('https://i.imgur.com/35QsJpi.jpeg'); min-height: 60vh;">
     <div class="container">
       <h1>Siding Installation &amp; Repair in Tacoma, WA</h1>
-      <p>New siding, rot repair, and weather barrier installation &mdash; protecting Tacoma homes from Pacific Northwest moisture for over 23 years.</p>
+      <p>New siding, rot repair, and weather barrier installation &mdash; protecting Tacoma homes from Pacific Northwest moisture for over 33 years.</p>
       <div class="hero-cta">
         <a href="/contact" class="btn-primary">Get a Free Siding Estimate</a>
         <a href="tel:+12537779683" class="hero-phone"><i data-lucide="phone"></i> (253) 777-9683</a>
@@ -67,7 +92,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="prose-centered">
         <p style="font-size: 1.1rem; line-height: 1.7; margin-bottom: var(--space-lg);">Siding replacement in Tacoma typically costs between $6,000 and $18,000 depending on the size of the home, siding material, and the extent of rot or sheathing damage underneath. A standard vinyl re-side on a single-story home takes 3&ndash;5 days. Board-and-batten or fiber cement installations take longer due to the precision required.</p>
-        <p style="font-size: 1.1rem; line-height: 1.7;">Ark Roofing &amp; Renovations has provided siding installation and repair in Tacoma and Pierce County for over 23 years. We don't just hang new siding over old problems &mdash; we strip it down, inspect the sheathing, replace what's rotted, install a proper weather barrier, and then put up siding that will actually last.</p>
+        <p style="font-size: 1.1rem; line-height: 1.7;">Ark Roofing &amp; Renovations has provided siding installation and repair in Tacoma and Pierce County for over 33 years. We don't just hang new siding over old problems &mdash; we strip it down, inspect the sheathing, replace what's rotted, install a proper weather barrier, and then put up siding that will actually last.</p>
       </div>
     </div>
   </section>
@@ -79,7 +104,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div>
           <h2 class="section-title">What's Behind Your Siding Matters More Than What's on It</h2>
           <div class="prose">
-            <p style="margin-bottom: var(--space-md);">In 23 years of pulling siding off Tacoma homes, we've found rotted sheathing on the majority of re-side projects. Moisture works its way behind aging siding through failed caulk joints, cracked panels, and worn flashing. By the time you see water stains inside, the damage behind the wall has been building for years.</p>
+            <p style="margin-bottom: var(--space-md);">In 33 years of pulling siding off Tacoma homes, we've found rotted sheathing on the majority of re-side projects. Moisture works its way behind aging siding through failed caulk joints, cracked panels, and worn flashing. By the time you see water stains inside, the damage behind the wall has been building for years.</p>
             <p style="margin-bottom: var(--space-md);">We remove all existing siding and inspect every square foot of sheathing. Rotted OSB and plywood gets cut out and replaced. Mold-damaged framing gets treated. Then we install a weather barrier (Jumbo Tex housewrap) before any new siding goes up.</p>
             <p>This is the step that separates a siding job that lasts 30 years from one that fails in 10. Covering up rot with new siding is the most expensive mistake a homeowner can make.</p>
           </div>
@@ -96,13 +121,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <!-- Answer Blocks -->
   <section style="padding: var(--section-pad); background: var(--bg);">
     <div class="container">
-      <div class="answer-block" data-animate="fade-up">
-        <h2>How do you know if the sheathing behind your siding is damaged?</h2>
-        <p class="prose">Look for soft or spongy spots when pressing on exterior walls, bubbling or warped siding panels, musty smells near exterior walls, persistent mildew stains, and water stains on interior walls. If your siding is over 20 years old in the Tacoma climate, there's a high probability of at least some sheathing damage. We can assess this during a free inspection.</p>
+      <div class="answer-block" data-animate="fade-up" itemscope itemtype="https://schema.org/Question">
+        <h2 itemprop="name">How do you know if the sheathing behind your siding is damaged?</h2>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p class="prose" itemprop="text">Look for soft or spongy spots when pressing on exterior walls, bubbling or warped siding panels, musty smells near exterior walls, persistent mildew stains, and water stains on interior walls. If your siding is over 20 years old in the Tacoma climate, there's a high probability of at least some sheathing damage. We can assess this during a free inspection.</p>
+        </div>
       </div>
-      <div class="answer-block" data-animate="fade-up">
-        <h3>What types of siding do you install?</h3>
-        <p class="prose">We install vinyl siding, board-and-batten siding, and fiber cement (HardiePlank). Each has advantages: vinyl is cost-effective and low-maintenance, board-and-batten gives a modern architectural look, and fiber cement offers superior durability and fire resistance. We'll recommend the best option based on your home's design, budget, and exposure to weather.</p>
+      <div class="answer-block" data-animate="fade-up" itemscope itemtype="https://schema.org/Question">
+        <h3 itemprop="name">What types of siding do you install?</h3>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p class="prose" itemprop="text">We install vinyl siding, board-and-batten siding, and fiber cement (HardiePlank). Each has advantages: vinyl is cost-effective and low-maintenance, board-and-batten gives a modern architectural look, and fiber cement offers superior durability and fire resistance. We'll recommend the best option based on your home's design, budget, and exposure to weather.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -217,31 +246,5 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   </div>
 
 </main>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {"@type": "Question", "name": "How long does a siding replacement take?", "acceptedAnswer": {"@type": "Answer", "text": "Most residential siding replacements take 3–7 days depending on house size, sheathing damage, and siding type."}},
-    {"@type": "Question", "name": "Should I replace siding and roofing at the same time?", "acceptedAnswer": {"@type": "Answer", "text": "If both are aging, yes. Bundling roofing and siding work saves 10–15% and allows inspection of the entire building envelope."}},
-    {"@type": "Question", "name": "Can you match new siding to existing sections?", "acceptedAnswer": {"@type": "Answer", "text": "In many cases, yes. For vinyl siding, matching profile and color is usually straightforward if the product is still manufactured."}}
-  ]
-}
-</script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": "How Ark Roofing & Renovations Replaces Siding in Tacoma, WA",
-  "step": [
-    {"@type": "HowToStep", "position": 1, "name": "Strip & Inspect", "text": "Remove all existing siding and inspect sheathing for rot, mold, and moisture damage."},
-    {"@type": "HowToStep", "position": 2, "name": "Repair Sheathing", "text": "Cut out and replace damaged OSB or plywood. Treat mold on framing."},
-    {"@type": "HowToStep", "position": 3, "name": "Weather Barrier", "text": "Install Jumbo Tex housewrap with taped seams, flash all windows and doors."},
-    {"@type": "HowToStep", "position": 4, "name": "Siding Installation", "text": "Install new siding with proper nailing, caulking, and trim work."}
-  ]
-}
-</script>
 
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>

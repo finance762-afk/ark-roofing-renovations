@@ -1,7 +1,7 @@
 <?php
 $pageTitle       = "Deck Building & Repair in Tacoma, WA | Ark Roofing & Renovations";
-$pageDescription = "Custom deck builds, rebuilds, and repairs in Tacoma and Pierce County. From footings to finished railings. Pressure-treated lumber. 23+ years experience. Free estimates.";
-$canonicalUrl    = "https://www.arkroofingpros.com/services/decking";
+$pageDescription = "Custom deck builds, rebuilds, and repairs in Tacoma and Pierce County. From footings to finished railings. Pressure-treated lumber. 33+ years experience. Free estimates.";
+$canonicalUrl    = "https://arkroofingpro.com/services/decking";
 $ogImage         = "https://i.imgur.com/eaLbxz0.jpeg";
 $currentPage     = "services";
 $heroImage       = "https://i.imgur.com/eaLbxz0.jpeg";
@@ -14,9 +14,9 @@ $schemaMarkup    = '{
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.arkroofingpros.com"},
-        {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.arkroofingpros.com/services"},
-        {"@type": "ListItem", "position": 3, "name": "Decking", "item": "https://www.arkroofingpros.com/services/decking"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://arkroofingpro.com"},
+        {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://arkroofingpro.com/services"},
+        {"@type": "ListItem", "position": 3, "name": "Decking", "item": "https://arkroofingpro.com/services/decking"}
       ]
     },
     {
@@ -30,6 +30,31 @@ $schemaMarkup    = '{
       "@type": "LocalBusiness",
       "name": "Ark Roofing & Renovations LLC",
       "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {"@type": "Question", "name": "Pressure-treated or composite -- which is better for Tacoma?", "acceptedAnswer": {"@type": "Answer", "text": "Both work well. Pressure-treated costs less but needs re-staining every 2-3 years. Composite costs more but requires almost zero maintenance."}},
+        {"@type": "Question", "name": "How long does it take to build a new deck?", "acceptedAnswer": {"@type": "Answer", "text": "Most deck builds take 5-10 working days. Elevated or complex decks may take 2-3 weeks."}},
+        {"@type": "Question", "name": "Can you build a deck on a slope?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Many Tacoma properties have sloped yards. We set posts to varying heights with stepped footings and proper bracing."}}
+      ]
+    },
+    {
+      "@type": "HowTo",
+      "name": "How Ark Roofing & Renovations Builds a Deck",
+      "step": [
+        {"@type": "HowToStep", "position": 1, "name": "Demo & Site Prep", "text": "Tear down old deck, remove debris, level ground for footings."},
+        {"@type": "HowToStep", "position": 2, "name": "Footings & Posts", "text": "Set concrete pier blocks, install posts plumb and to grade."},
+        {"@type": "HowToStep", "position": 3, "name": "Framing", "text": "Install beams, joists, blocking, and ledger board with proper hardware."},
+        {"@type": "HowToStep", "position": 4, "name": "Decking & Railings", "text": "Install deck boards, stairs, railings, and post caps."}
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "speakable": {
+        "@type": "SpeakableSpecification",
+        "cssSelector": [".answer-block", ".entity-block", "h1"]
+      }
     }
   ]
 }';
@@ -49,7 +74,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="hero" style="background-image: url('https://i.imgur.com/eaLbxz0.jpeg'); min-height: 60vh;">
     <div class="container">
       <h1>Deck Building &amp; Repair in Tacoma, WA</h1>
-      <p>Custom deck builds from footings to railings &mdash; demolition, framing, and finishing by a crew that's been building in Pierce County for 23 years.</p>
+      <p>Custom deck builds from footings to railings &mdash; demolition, framing, and finishing by a crew that's been building in Pierce County for 33 years.</p>
       <div class="hero-cta">
         <a href="/contact" class="btn-primary">Get a Free Deck Estimate</a>
         <a href="tel:+12537779683" class="hero-phone"><i data-lucide="phone"></i> (253) 777-9683</a>
@@ -62,7 +87,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="prose-centered">
         <p style="font-size: 1.1rem; line-height: 1.7; margin-bottom: var(--space-lg);">A new deck in Tacoma typically costs between $5,000 and $20,000 depending on size, materials, height, and site conditions. A standard 12x16 pressure-treated deck runs $6,000&ndash;$10,000 including footings, framing, decking, and basic railings. Most builds take 5&ndash;10 days from demolition of the old deck to final inspection.</p>
-        <p style="font-size: 1.1rem; line-height: 1.7;">Ark Roofing &amp; Renovations has provided deck building and repair services in Tacoma and Pierce County for over 23 years. We build decks from the ground up &mdash; concrete pier footings, pressure-treated framing, and your choice of decking material. If your old deck is rotted, sagging, or unsafe, we demolish it down to bare ground and start fresh.</p>
+        <p style="font-size: 1.1rem; line-height: 1.7;">Ark Roofing &amp; Renovations has provided deck building and repair services in Tacoma and Pierce County for over 33 years. We build decks from the ground up &mdash; concrete pier footings, pressure-treated framing, and your choice of decking material. If your old deck is rotted, sagging, or unsafe, we demolish it down to bare ground and start fresh.</p>
       </div>
     </div>
   </section>
@@ -91,13 +116,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <!-- Answer Blocks -->
   <section style="padding: var(--section-pad); background: var(--bg);">
     <div class="container">
-      <div class="answer-block" data-animate="fade-up">
-        <h2>How much does it cost to build a new deck in Tacoma?</h2>
-        <p class="prose">Standard pressure-treated decks run $25&ndash;$45 per square foot installed, including footings, framing, decking, and railings. A 200 sq ft deck typically costs $6,000&ndash;$10,000. Composite decking adds $10&ndash;$20 per square foot. Second-story decks, complex shapes, and built-in benches or stairs add to the total. We provide detailed estimates with all costs itemized.</p>
+      <div class="answer-block" data-animate="fade-up" itemscope itemtype="https://schema.org/Question">
+        <h2 itemprop="name">How much does it cost to build a new deck in Tacoma?</h2>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p class="prose" itemprop="text">Standard pressure-treated decks run $25&ndash;$45 per square foot installed, including footings, framing, decking, and railings. A 200 sq ft deck typically costs $6,000&ndash;$10,000. Composite decking adds $10&ndash;$20 per square foot. Second-story decks, complex shapes, and built-in benches or stairs add to the total. We provide detailed estimates with all costs itemized.</p>
+        </div>
       </div>
-      <div class="answer-block" data-animate="fade-up">
-        <h3>Do I need a permit to build a deck in Pierce County?</h3>
-        <p class="prose">Most decks over 200 square feet or more than 30 inches above grade require a building permit in Pierce County. Decks attached to the house always require a permit to ensure the ledger board connection meets code. We handle permit applications as part of the project and build to pass inspection the first time.</p>
+      <div class="answer-block" data-animate="fade-up" itemscope itemtype="https://schema.org/Question">
+        <h3 itemprop="name">Do I need a permit to build a deck in Pierce County?</h3>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p class="prose" itemprop="text">Most decks over 200 square feet or more than 30 inches above grade require a building permit in Pierce County. Decks attached to the house always require a permit to ensure the ledger board connection meets code. We handle permit applications as part of the project and build to pass inspection the first time.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -199,22 +228,5 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   </div>
 
 </main>
-
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-  {"@type":"Question","name":"Pressure-treated or composite — which is better for Tacoma?","acceptedAnswer":{"@type":"Answer","text":"Both work well. Pressure-treated costs less but needs re-staining every 2–3 years. Composite costs more but requires almost zero maintenance."}},
-  {"@type":"Question","name":"How long does it take to build a new deck?","acceptedAnswer":{"@type":"Answer","text":"Most deck builds take 5–10 working days. Elevated or complex decks may take 2–3 weeks."}},
-  {"@type":"Question","name":"Can you build a deck on a slope?","acceptedAnswer":{"@type":"Answer","text":"Yes. Many Tacoma properties have sloped yards. We set posts to varying heights with stepped footings and proper bracing."}}
-]}
-</script>
-
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"HowTo","name":"How Ark Roofing & Renovations Builds a Deck","step":[
-  {"@type":"HowToStep","position":1,"name":"Demo & Site Prep","text":"Tear down old deck, remove debris, level ground for footings."},
-  {"@type":"HowToStep","position":2,"name":"Footings & Posts","text":"Set concrete pier blocks, install posts plumb and to grade."},
-  {"@type":"HowToStep","position":3,"name":"Framing","text":"Install beams, joists, blocking, and ledger board with proper hardware."},
-  {"@type":"HowToStep","position":4,"name":"Decking & Railings","text":"Install deck boards, stairs, railings, and post caps."}
-]}
-</script>
 
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>

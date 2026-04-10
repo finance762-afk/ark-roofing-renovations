@@ -1,7 +1,7 @@
 <?php
 $pageTitle       = "Roof Cleaning & Moss Removal in Tacoma, WA | Ark Roofing & Renovations";
 $pageDescription = "Professional roof cleaning and moss removal in Tacoma and Pierce County. Soft wash methods, debris clearing, and preventive treatments. Extend your roof's lifespan. Free estimates.";
-$canonicalUrl    = "https://www.arkroofingpros.com/services/roof-cleaning";
+$canonicalUrl    = "https://arkroofingpro.com/services/roof-cleaning";
 $ogImage         = "https://i.imgur.com/q0vb42l.jpeg";
 $currentPage     = "services";
 $heroImage       = "https://i.imgur.com/q0vb42l.jpeg";
@@ -12,12 +12,17 @@ $schemaMarkup    = '{
   "@context": "https://schema.org",
   "@graph": [
     {"@type": "BreadcrumbList", "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.arkroofingpros.com"},
-      {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.arkroofingpros.com/services"},
-      {"@type": "ListItem", "position": 3, "name": "Roof Cleaning", "item": "https://www.arkroofingpros.com/services/roof-cleaning"}
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://arkroofingpro.com"},
+      {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://arkroofingpro.com/services"},
+      {"@type": "ListItem", "position": 3, "name": "Roof Cleaning", "item": "https://arkroofingpro.com/services/roof-cleaning"}
     ]},
     {"@type": "Service", "serviceType": "Roof Cleaning", "provider": {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "telephone": "+12537779683"}, "areaServed": {"@type": "City", "name": "Tacoma", "addressRegion": "WA"}},
-    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}}
+    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}},
+    {"@type": "FAQPage", "mainEntity": [
+      {"@type": "Question", "name": "How often should I clean my roof in Tacoma?", "acceptedAnswer": {"@type": "Answer", "text": "Every 1-2 years for most homes. North-facing slopes and homes near trees may need annual cleaning."}},
+      {"@type": "Question", "name": "Will roof cleaning void my shingle warranty?", "acceptedAnswer": {"@type": "Answer", "text": "Not when done correctly with soft wash methods. Pressure washing voids most warranties."}}
+    ]},
+    {"@type": "WebPage", "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".answer-block", ".entity-block", "h1"]}}
   ]
 }';
 
@@ -46,7 +51,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="prose-centered">
         <p style="font-size: 1.1rem; line-height: 1.7; margin-bottom: var(--space-lg);">Roof cleaning in Tacoma typically costs between $300 and $800 for a standard residential home, depending on roof size, pitch, moss severity, and debris accumulation. Most roof cleaning jobs take 3&ndash;6 hours. In the Pacific Northwest, moss and algae growth isn't cosmetic &mdash; it actively damages shingles by lifting them, trapping moisture, and accelerating granule loss.</p>
-        <p style="font-size: 1.1rem; line-height: 1.7;">Ark Roofing &amp; Renovations has provided roof cleaning services in Tacoma and Pierce County for over 23 years. As a full-service <a href="/services/roofing">roofing contractor</a>, we know exactly what moss does to shingles from the inside &mdash; we've torn off thousands of roofs where neglected moss shortened the roof's lifespan by 5&ndash;10 years.</p>
+        <p style="font-size: 1.1rem; line-height: 1.7;">Ark Roofing &amp; Renovations has provided roof cleaning services in Tacoma and Pierce County for over 33 years. As a full-service <a href="/services/roofing">roofing contractor</a>, we know exactly what moss does to shingles from the inside &mdash; we've torn off thousands of roofs where neglected moss shortened the roof's lifespan by 5&ndash;10 years.</p>
       </div>
     </div>
   </section>
@@ -73,13 +78,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
   <section style="padding: var(--section-pad); background: var(--bg);">
     <div class="container">
-      <div class="answer-block" data-animate="fade-up">
-        <h2>How much does roof cleaning cost in Tacoma?</h2>
-        <p class="prose">Basic debris clearing and moss treatment runs $300&ndash;$500. Full moss removal with soft washing and preventive treatment runs $500&ndash;$800 for a standard home. Steep roofs, heavy moss buildup, or multi-story homes add to the cost. We also clean <a href="/services/gutters">gutters</a> during every roof cleaning visit since debris washes into them during the process.</p>
+      <div class="answer-block" data-animate="fade-up" itemscope itemtype="https://schema.org/Question">
+        <h2 itemprop="name">How much does roof cleaning cost in Tacoma?</h2>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p class="prose" itemprop="text">Basic debris clearing and moss treatment runs $300&ndash;$500. Full moss removal with soft washing and preventive treatment runs $500&ndash;$800 for a standard home. Steep roofs, heavy moss buildup, or multi-story homes add to the cost. We also clean <a href="/services/gutters">gutters</a> during every roof cleaning visit since debris washes into them during the process.</p>
+        </div>
       </div>
-      <div class="answer-block" data-animate="fade-up">
-        <h3>Is pressure washing safe for shingles?</h3>
-        <p class="prose">No. High-pressure washing strips granules from asphalt shingles and voids manufacturer warranties. We use soft wash methods &mdash; low-pressure water combined with cleaning solutions that kill moss and algae without damaging shingles. Manual scraping with plastic tools removes thick moss mats before the soft wash application.</p>
+      <div class="answer-block" data-animate="fade-up" itemscope itemtype="https://schema.org/Question">
+        <h3 itemprop="name">Is pressure washing safe for shingles?</h3>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p class="prose" itemprop="text">No. High-pressure washing strips granules from asphalt shingles and voids manufacturer warranties. We use soft wash methods &mdash; low-pressure water combined with cleaning solutions that kill moss and algae without damaging shingles. Manual scraping with plastic tools removes thick moss mats before the soft wash application.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -146,12 +155,5 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
   <div class="container" style="padding: var(--space-lg) 0;"><p style="font-size: 0.85rem; color: var(--text-light);">Last Updated: <?php echo date('F Y'); ?></p></div>
 </main>
-
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-  {"@type":"Question","name":"How often should I clean my roof in Tacoma?","acceptedAnswer":{"@type":"Answer","text":"Every 1–2 years for most homes. North-facing slopes and homes near trees may need annual cleaning."}},
-  {"@type":"Question","name":"Will roof cleaning void my shingle warranty?","acceptedAnswer":{"@type":"Answer","text":"Not when done correctly with soft wash methods. Pressure washing voids most warranties."}}
-]}
-</script>
 
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>

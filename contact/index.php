@@ -1,7 +1,7 @@
 <?php
 $pageTitle       = "Contact Ark Roofing & Renovations — Free Estimates in Tacoma, WA";
-$pageDescription = "Request a free roofing or renovation estimate from Ark Roofing & Renovations in Tacoma, WA. Call (253) 777-9683 or fill out our contact form. Licensed & insured. 23+ years experience.";
-$canonicalUrl    = "https://www.arkroofingpros.com/contact";
+$pageDescription = "Request a free roofing or renovation estimate from Ark Roofing & Renovations in Tacoma, WA. Call (253) 777-9683 or fill out our contact form. Licensed & insured. 33+ years experience.";
+$canonicalUrl    = "https://arkroofingpro.com/contact";
 $ogImage         = "https://i.imgur.com/q0vb42l.jpeg";
 $currentPage     = "contact";
 $heroImage       = "";
@@ -10,10 +10,14 @@ $useTilt         = false;
 $useTyped        = false;
 $schemaMarkup    = '{
   "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.arkroofingpros.com"},
-    {"@type": "ListItem", "position": 2, "name": "Contact", "item": "https://www.arkroofingpros.com/contact"}
+  "@graph": [
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://arkroofingpro.com"},
+        {"@type": "ListItem", "position": 2, "name": "Contact", "item": "https://arkroofingpro.com/contact"}
+      ]
+    }
   ]
 }';
 
@@ -33,7 +37,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="padding: var(--space-3xl) 0 var(--space-xl); background: var(--bg);">
     <div class="container">
       <h1 class="section-title">Contact Ark Roofing &amp; Renovations &mdash; Free Estimates in Tacoma, WA</h1>
-      <p class="prose" style="font-size: 1.1rem; color: var(--text-light);">Fill out the form below or call us directly. We typically respond within one business day. For emergencies, call <a href="tel:+12537779683" style="color: var(--primary); font-weight: 700;">(253) 777-9683</a> immediately.</p>
+      <p class="prose" style="font-size: 1.1rem; color: var(--text-light);">Ark Roofing &amp; Renovations is a licensed and insured roofing and renovation contractor based in Tacoma, WA. Fill out the form below or call us directly. We typically respond within one business day. For emergencies, call <a href="tel:+12537779683" style="color: var(--primary); font-weight: 700;">(253) 777-9683</a> immediately.</p>
     </div>
   </section>
 
@@ -46,7 +50,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         <div>
           <form action="https://formsubmit.co/letourneauwil@gmail.com" method="POST" style="background: var(--bg-alt); padding: var(--space-xl); border-radius: var(--radius); box-shadow: var(--elevation-2);">
             <!-- Hidden Fields -->
-            <input type="hidden" name="_next" value="https://DOMAIN.com/thank-you">
+            <input type="hidden" name="_next" value="https://arkroofingpro.com/thank-you">
             <input type="hidden" name="_captcha" value="false">
             <input type="text" name="_honey" style="display:none">
             <input type="hidden" name="_template" value="table">

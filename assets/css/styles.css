@@ -306,6 +306,12 @@ a { text-decoration: none; color: inherit; }
 .img-reveal:hover img {
   transform: scale(1.03);
 }
+.split img, .split-reverse img {
+  aspect-ratio: 3/2;
+  object-fit: cover;
+  width: 100%;
+  height: auto;
+}
 
 /* --- Grid Layouts --- */
 .grid-2 {

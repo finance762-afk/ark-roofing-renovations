@@ -1,7 +1,7 @@
 <?php
 $pageTitle       = "Emergency Roofing & Repair Services in Tacoma, WA | Ark Roofing & Renovations";
 $pageDescription = "Emergency roof repair, storm damage tarping, and urgent home repairs in Tacoma and Pierce County. Rapid response for leaks, wind damage, and fallen trees. Call (253) 777-9683.";
-$canonicalUrl    = "https://www.arkroofingpros.com/services/emergency-services";
+$canonicalUrl    = "https://arkroofingpro.com/services/emergency-services";
 $ogImage         = "https://i.imgur.com/DllQ5VJ.jpeg";
 $currentPage     = "services";
 $heroImage       = "https://i.imgur.com/DllQ5VJ.jpeg";
@@ -12,12 +12,18 @@ $schemaMarkup    = '{
   "@context": "https://schema.org",
   "@graph": [
     {"@type": "BreadcrumbList", "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.arkroofingpros.com"},
-      {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.arkroofingpros.com/services"},
-      {"@type": "ListItem", "position": 3, "name": "Emergency Services", "item": "https://www.arkroofingpros.com/services/emergency-services"}
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://arkroofingpro.com"},
+      {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://arkroofingpro.com/services"},
+      {"@type": "ListItem", "position": 3, "name": "Emergency Services", "item": "https://arkroofingpro.com/services/emergency-services"}
     ]},
     {"@type": "Service", "serviceType": "Emergency Roofing and Repair", "provider": {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "telephone": "+12537779683"}, "areaServed": {"@type": "City", "name": "Tacoma", "addressRegion": "WA"}},
-    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}}
+    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}},
+    {"@type": "FAQPage", "mainEntity": [
+      {"@type": "Question", "name": "Will my homeowners insurance cover storm damage repairs?", "acceptedAnswer": {"@type": "Answer", "text": "Most policies cover sudden storm damage including wind, hail, and fallen trees. They typically do not cover deferred maintenance."}},
+      {"@type": "Question", "name": "What should I do while waiting for emergency repair?", "acceptedAnswer": {"@type": "Answer", "text": "Place buckets under leaks, move valuables, take photos for insurance. Do not go on the roof yourself."}},
+      {"@type": "Question", "name": "Do you charge extra for emergency calls?", "acceptedAnswer": {"@type": "Answer", "text": "No surcharges for urgency. Emergency tarping is billed at standard labor and material rates."}}
+    ]},
+    {"@type": "WebPage", "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".answer-block", ".entity-block", "h1"]}}
   ]
 }';
 
@@ -46,7 +52,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <div class="prose-centered">
         <p style="font-size: 1.15rem; line-height: 1.7; margin-bottom: var(--space-lg); font-weight: 500;">If your roof is leaking, missing shingles, or damaged by a storm &mdash; call <a href="tel:+12537779683" style="color: var(--primary); font-weight: 700;">(253) 777-9683</a> immediately. Every hour of delay increases water damage inside your home.</p>
         <p style="font-size: 1.1rem; line-height: 1.7; margin-bottom: var(--space-lg);">Emergency tarping and temporary repairs typically cost $500&ndash;$2,000 depending on the extent of damage and accessibility. We respond as quickly as possible to secure your property and stop active water intrusion. Permanent repairs are scheduled once conditions allow.</p>
-        <p style="font-size: 1.1rem; line-height: 1.7;">Ark Roofing &amp; Renovations has provided emergency repair services in Tacoma and Pierce County for over 23 years. We've handled hundreds of storm damage calls &mdash; from single missing shingles to entire roof sections destroyed by fallen trees. We know how to stabilize damage fast and work with your insurance company to get permanent repairs approved.</p>
+        <p style="font-size: 1.1rem; line-height: 1.7;">Ark Roofing &amp; Renovations has provided emergency repair services in Tacoma and Pierce County for over 33 years. We've handled hundreds of storm damage calls &mdash; from single missing shingles to entire roof sections destroyed by fallen trees. We know how to stabilize damage fast and work with your insurance company to get permanent repairs approved.</p>
       </div>
     </div>
   </section>
@@ -79,13 +85,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
   <section style="padding: var(--section-pad); background: var(--bg);">
     <div class="container">
-      <div class="answer-block" data-animate="fade-up">
-        <h2>Do you work with insurance companies on storm damage claims?</h2>
-        <p class="prose">Yes. We provide detailed photo documentation, damage assessments, and itemized repair estimates formatted for insurance adjusters. We've processed hundreds of storm damage claims across Pierce County and know exactly what documentation carriers need to approve repairs quickly. We work directly with your adjuster throughout the process.</p>
+      <div class="answer-block" data-animate="fade-up" itemscope itemtype="https://schema.org/Question">
+        <h2 itemprop="name">Do you work with insurance companies on storm damage claims?</h2>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p class="prose" itemprop="text">Yes. We provide detailed photo documentation, damage assessments, and itemized repair estimates formatted for insurance adjusters. We've processed hundreds of storm damage claims across Pierce County and know exactly what documentation carriers need to approve repairs quickly. We work directly with your adjuster throughout the process.</p>
+        </div>
       </div>
-      <div class="answer-block" data-animate="fade-up">
-        <h3>How fast can you respond to an emergency?</h3>
-        <p class="prose">We respond as quickly as possible during normal business hours and prioritize emergencies over scheduled work when active water intrusion is occurring. During major storm events that affect multiple properties, we triage by severity &mdash; active leaks and structural damage get first priority. Tarping can often be completed within hours of the initial call.</p>
+      <div class="answer-block" data-animate="fade-up" itemscope itemtype="https://schema.org/Question">
+        <h3 itemprop="name">How fast can you respond to an emergency?</h3>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p class="prose" itemprop="text">We respond as quickly as possible during normal business hours and prioritize emergencies over scheduled work when active water intrusion is occurring. During major storm events that affect multiple properties, we triage by severity &mdash; active leaks and structural damage get first priority. Tarping can often be completed within hours of the initial call.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -161,7 +171,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="closing-cta" data-animate="fade-up">
     <div class="container">
       <h2 class="section-title">Every Hour Counts When Your Roof Is Compromised</h2>
-      <p style="font-size: 1.1rem; color: rgba(255,255,255,0.8); max-width: 550px; margin-inline: auto; margin-bottom: var(--space-lg);">Water damage spreads fast. Call now to get your property secured by a crew with 23 years of storm damage experience.</p>
+      <p style="font-size: 1.1rem; color: rgba(255,255,255,0.8); max-width: 550px; margin-inline: auto; margin-bottom: var(--space-lg);">Water damage spreads fast. Call now to get your property secured by a crew with 33 years of storm damage experience.</p>
       <a href="tel:+12537779683" class="hero-phone" style="margin-bottom: var(--space-xl); color: var(--accent);"><i data-lucide="phone"></i> (253) 777-9683</a>
       <div><a href="/contact" class="btn-primary">Request Emergency Service</a></div>
     </div>
@@ -169,13 +179,5 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
   <div class="container" style="padding: var(--space-lg) 0;"><p style="font-size: 0.85rem; color: var(--text-light);">Last Updated: <?php echo date('F Y'); ?></p></div>
 </main>
-
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-  {"@type":"Question","name":"Will my homeowner's insurance cover storm damage repairs?","acceptedAnswer":{"@type":"Answer","text":"Most policies cover sudden storm damage including wind, hail, and fallen trees. They typically don't cover deferred maintenance."}},
-  {"@type":"Question","name":"What should I do while waiting for emergency repair?","acceptedAnswer":{"@type":"Answer","text":"Place buckets under leaks, move valuables, take photos for insurance. Do not go on the roof yourself."}},
-  {"@type":"Question","name":"Do you charge extra for emergency calls?","acceptedAnswer":{"@type":"Answer","text":"No surcharges for urgency. Emergency tarping is billed at standard labor and material rates."}}
-]}
-</script>
 
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>

@@ -1,7 +1,7 @@
 <?php
 $pageTitle       = "Soffit & Fascia Repair in Tacoma, WA | Ark Roofing & Renovations";
-$pageDescription = "Soffit and fascia repair and replacement in Tacoma and Pierce County. Protect your roofline from rot, moisture, and pests. Licensed & insured. 23+ years experience. Free estimates.";
-$canonicalUrl    = "https://www.arkroofingpros.com/services/soffit-and-fascia";
+$pageDescription = "Soffit and fascia repair and replacement in Tacoma and Pierce County. Protect your roofline from rot, moisture, and pests. Licensed & insured. 33+ years experience. Free estimates.";
+$canonicalUrl    = "https://arkroofingpro.com/services/soffit-and-fascia";
 $ogImage         = "https://i.imgur.com/IFFYT83.jpeg";
 $currentPage     = "services";
 $heroImage       = "https://i.imgur.com/IFFYT83.jpeg";
@@ -12,12 +12,17 @@ $schemaMarkup    = '{
   "@context": "https://schema.org",
   "@graph": [
     {"@type": "BreadcrumbList", "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.arkroofingpros.com"},
-      {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.arkroofingpros.com/services"},
-      {"@type": "ListItem", "position": 3, "name": "Soffit & Fascia", "item": "https://www.arkroofingpros.com/services/soffit-and-fascia"}
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://arkroofingpro.com"},
+      {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://arkroofingpro.com/services"},
+      {"@type": "ListItem", "position": 3, "name": "Soffit & Fascia", "item": "https://arkroofingpro.com/services/soffit-and-fascia"}
     ]},
     {"@type": "Service", "serviceType": "Soffit and Fascia Repair", "provider": {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "telephone": "+12537779683"}, "areaServed": {"@type": "City", "name": "Tacoma", "addressRegion": "WA"}},
-    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}}
+    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}},
+    {"@type": "FAQPage", "mainEntity": [
+      {"@type": "Question", "name": "How do I know if my soffit or fascia needs replacement?", "acceptedAnswer": {"@type": "Answer", "text": "Look for peeling paint, visible rot, holes in soffit panels, birds nesting under eaves, water stains on overhangs, and gutters pulling away from the roofline."}},
+      {"@type": "Question", "name": "What materials do you use for replacement?", "acceptedAnswer": {"@type": "Answer", "text": "We install aluminum soffit panels and pre-finished aluminum fascia wrapping. For homes wanting a wood look, we use primed PVC or composite boards."}}
+    ]},
+    {"@type": "WebPage", "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".answer-block", ".entity-block", "h1"]}}
   ]
 }';
 
@@ -46,7 +51,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="prose-centered">
         <p style="font-size: 1.1rem; line-height: 1.7; margin-bottom: var(--space-lg);">Soffit and fascia repair in Tacoma typically costs between $1,500 and $6,000 depending on how much of the roofline is affected and whether the underlying framing needs replacement. Most repairs take 1&ndash;3 days. These components protect the edges of your roof from water intrusion and pest entry &mdash; when they fail, damage spreads fast.</p>
-        <p style="font-size: 1.1rem; line-height: 1.7;">Ark Roofing &amp; Renovations has provided soffit and fascia repair in Tacoma and Pierce County for over 23 years. We frequently discover damaged soffit and fascia during <a href="/services/roofing">roofing</a> and <a href="/services/siding">siding</a> projects, and we address it as part of the job rather than covering it up.</p>
+        <p style="font-size: 1.1rem; line-height: 1.7;">Ark Roofing &amp; Renovations has provided soffit and fascia repair in Tacoma and Pierce County for over 33 years. We frequently discover damaged soffit and fascia during <a href="/services/roofing">roofing</a> and <a href="/services/siding">siding</a> projects, and we address it as part of the job rather than covering it up.</p>
       </div>
     </div>
   </section>
@@ -73,13 +78,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
   <section style="padding: var(--section-pad); background: var(--bg);">
     <div class="container">
-      <div class="answer-block" data-animate="fade-up">
-        <h2>What's the difference between soffit and fascia?</h2>
-        <p class="prose">Fascia is the vertical board at the edge of the roof that the gutters attach to. Soffit is the horizontal panel underneath the roof overhang (the eave). Together, they seal the gap between the roof edge and the wall, provide attic ventilation through perforated soffit panels, and give the roofline a finished appearance. Both are critical for preventing moisture and pest entry.</p>
+      <div class="answer-block" data-animate="fade-up" itemscope itemtype="https://schema.org/Question">
+        <h2 itemprop="name">What's the difference between soffit and fascia?</h2>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p class="prose" itemprop="text">Fascia is the vertical board at the edge of the roof that the gutters attach to. Soffit is the horizontal panel underneath the roof overhang (the eave). Together, they seal the gap between the roof edge and the wall, provide attic ventilation through perforated soffit panels, and give the roofline a finished appearance. Both are critical for preventing moisture and pest entry.</p>
+        </div>
       </div>
-      <div class="answer-block" data-animate="fade-up">
-        <h3>Should I replace soffit and fascia during a roof replacement?</h3>
-        <p class="prose">If your soffit and fascia are over 15 years old or showing signs of damage, yes. During a <a href="/services/roofing">roof replacement</a>, we already have ladders and scaffolding set up along the roofline. Adding soffit and fascia replacement to an existing roofing project is more cost-effective than scheduling it separately.</p>
+      <div class="answer-block" data-animate="fade-up" itemscope itemtype="https://schema.org/Question">
+        <h3 itemprop="name">Should I replace soffit and fascia during a roof replacement?</h3>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p class="prose" itemprop="text">If your soffit and fascia are over 15 years old or showing signs of damage, yes. During a <a href="/services/roofing">roof replacement</a>, we already have ladders and scaffolding set up along the roofline. Adding soffit and fascia replacement to an existing roofing project is more cost-effective than scheduling it separately.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -149,12 +158,5 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <div class="container" style="padding: var(--space-lg) 0;"><p style="font-size: 0.85rem; color: var(--text-light);">Last Updated: <?php echo date('F Y'); ?></p></div>
 
 </main>
-
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-  {"@type":"Question","name":"How do I know if my soffit or fascia needs replacement?","acceptedAnswer":{"@type":"Answer","text":"Look for peeling paint, visible rot, holes in soffit panels, birds nesting under eaves, water stains on overhangs, and gutters pulling away from the roofline."}},
-  {"@type":"Question","name":"What materials do you use for replacement?","acceptedAnswer":{"@type":"Answer","text":"We install aluminum soffit panels and pre-finished aluminum fascia wrapping. For homes wanting a wood look, we use primed PVC or composite boards."}}
-]}
-</script>
 
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>

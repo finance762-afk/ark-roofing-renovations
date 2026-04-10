@@ -1,7 +1,7 @@
 <?php
 $pageTitle       = "Gutter Installation & Repair in Tacoma, WA | Ark Roofing & Renovations";
-$pageDescription = "Gutter installation, repair, and replacement in Tacoma and Pierce County. Seamless gutters, downspout routing, and drainage solutions. 23+ years experience. Free estimates.";
-$canonicalUrl    = "https://www.arkroofingpros.com/services/gutters";
+$pageDescription = "Gutter installation, repair, and replacement in Tacoma and Pierce County. Seamless gutters, downspout routing, and drainage solutions. 33+ years experience. Free estimates.";
+$canonicalUrl    = "https://arkroofingpro.com/services/gutters";
 $ogImage         = "https://i.imgur.com/LH3fPDe.jpeg";
 $currentPage     = "services";
 $heroImage       = "https://i.imgur.com/Ax4CYwh.jpeg";
@@ -12,12 +12,17 @@ $schemaMarkup    = '{
   "@context": "https://schema.org",
   "@graph": [
     {"@type": "BreadcrumbList", "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.arkroofingpros.com"},
-      {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.arkroofingpros.com/services"},
-      {"@type": "ListItem", "position": 3, "name": "Gutters", "item": "https://www.arkroofingpros.com/services/gutters"}
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://arkroofingpro.com"},
+      {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://arkroofingpro.com/services"},
+      {"@type": "ListItem", "position": 3, "name": "Gutters", "item": "https://arkroofingpro.com/services/gutters"}
     ]},
     {"@type": "Service", "serviceType": "Gutter Installation and Repair", "provider": {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "telephone": "+12537779683"}, "areaServed": {"@type": "City", "name": "Tacoma", "addressRegion": "WA"}},
-    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}}
+    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}},
+    {"@type": "FAQPage", "mainEntity": [
+      {"@type": "Question", "name": "How often should gutters be cleaned in the Pacific Northwest?", "acceptedAnswer": {"@type": "Answer", "text": "At minimum twice per year -- late fall after leaves drop and late spring. Homes near trees may need quarterly cleaning."}},
+      {"@type": "Question", "name": "What size gutters do Tacoma homes need?", "acceptedAnswer": {"@type": "Answer", "text": "Most residential homes use 5-inch K-style gutters with 2x3-inch downspouts. Larger roof areas may need 6-inch gutters."}}
+    ]},
+    {"@type": "WebPage", "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".answer-block", ".entity-block", "h1"]}}
   ]
 }';
 
@@ -46,7 +51,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="prose-centered">
         <p style="font-size: 1.1rem; line-height: 1.7; margin-bottom: var(--space-lg);">Gutter installation in Tacoma costs between $1,200 and $4,500 for a standard residential home, depending on the number of stories, total linear footage, and downspout configuration. Most gutter installations take 1&ndash;2 days. In the Pacific Northwest, properly functioning gutters aren't optional &mdash; they're the primary defense against foundation damage, basement flooding, and siding rot.</p>
-        <p style="font-size: 1.1rem; line-height: 1.7;">Ark Roofing &amp; Renovations has provided gutter installation and repair in Tacoma and Pierce County for over 23 years. We install gutters as standalone projects and as part of <a href="/services/roofing">roofing replacements</a>, ensuring the entire water management system works together.</p>
+        <p style="font-size: 1.1rem; line-height: 1.7;">Ark Roofing &amp; Renovations has provided gutter installation and repair in Tacoma and Pierce County for over 33 years. We install gutters as standalone projects and as part of <a href="/services/roofing">roofing replacements</a>, ensuring the entire water management system works together.</p>
       </div>
     </div>
   </section>
@@ -73,13 +78,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
   <section style="padding: var(--section-pad); background: var(--bg);">
     <div class="container">
-      <div class="answer-block" data-animate="fade-up">
-        <h2>How much do new gutters cost in Tacoma?</h2>
-        <p class="prose">Seamless aluminum gutters run $8&ndash;$15 per linear foot installed, including hangers and downspouts. A typical single-story home with 150&ndash;200 feet of gutter costs $1,500&ndash;$3,000. Two-story homes and complex rooflines with multiple corners cost more due to additional downspouts and ladder work. We include cleanup of old gutters in every estimate.</p>
+      <div class="answer-block" data-animate="fade-up" itemscope itemtype="https://schema.org/Question">
+        <h2 itemprop="name">How much do new gutters cost in Tacoma?</h2>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p class="prose" itemprop="text">Seamless aluminum gutters run $8&ndash;$15 per linear foot installed, including hangers and downspouts. A typical single-story home with 150&ndash;200 feet of gutter costs $1,500&ndash;$3,000. Two-story homes and complex rooflines with multiple corners cost more due to additional downspouts and ladder work. We include cleanup of old gutters in every estimate.</p>
+        </div>
       </div>
-      <div class="answer-block" data-animate="fade-up">
-        <h3>Should I replace gutters during a roof replacement?</h3>
-        <p class="prose">If your gutters are over 15 years old, yes. We remove and reset existing gutters during every <a href="/services/roofing">roof replacement</a>. If they're dented, leaking at seams, or pulling away from rotted fascia, replacing them during the roofing project avoids a second crew and setup cost. The fascia repair, new drip edge, and gutter installation all integrate together for a watertight roofline.</p>
+      <div class="answer-block" data-animate="fade-up" itemscope itemtype="https://schema.org/Question">
+        <h3 itemprop="name">Should I replace gutters during a roof replacement?</h3>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p class="prose" itemprop="text">If your gutters are over 15 years old, yes. We remove and reset existing gutters during every <a href="/services/roofing">roof replacement</a>. If they're dented, leaking at seams, or pulling away from rotted fascia, replacing them during the roofing project avoids a second crew and setup cost. The fascia repair, new drip edge, and gutter installation all integrate together for a watertight roofline.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -147,12 +156,5 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
   <div class="container" style="padding: var(--space-lg) 0;"><p style="font-size: 0.85rem; color: var(--text-light);">Last Updated: <?php echo date('F Y'); ?></p></div>
 </main>
-
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-  {"@type":"Question","name":"How often should gutters be cleaned in the Pacific Northwest?","acceptedAnswer":{"@type":"Answer","text":"At minimum twice per year — late fall after leaves drop and late spring. Homes near trees may need quarterly cleaning."}},
-  {"@type":"Question","name":"What size gutters do Tacoma homes need?","acceptedAnswer":{"@type":"Answer","text":"Most residential homes use 5-inch K-style gutters with 2x3-inch downspouts. Larger roof areas may need 6-inch gutters."}}
-]}
-</script>
 
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>

@@ -144,4 +144,22 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 
+  // --- Scroll Depth Tracking ---
+  let scrollMarkers = [25, 50, 75, 100];
+  window.addEventListener('scroll', () => {
+    const scrollPercent = Math.round((window.scrollY / (document.body.scrollHeight - window.innerHeight)) * 100);
+    scrollMarkers = scrollMarkers.filter(marker => {
+      if (scrollPercent >= marker) {
+        if (typeof gtag !== 'undefined') {
+          gtag('event', 'scroll_depth', {
+            event_category: 'engagement',
+            event_label: marker + '%'
+          });
+        }
+        return false;
+      }
+      return true;
+    });
+  }, { passive: true });
+
 });

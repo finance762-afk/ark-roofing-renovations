@@ -1,7 +1,7 @@
 <?php
 $pageTitle       = "Fence Installation & Repair in Tacoma, WA | Ark Roofing & Renovations";
 $pageDescription = "Professional fence installation and repair in Tacoma and Pierce County. Wood, vinyl, and chain-link fencing for privacy, security, and curb appeal. Free estimates. (253) 777-9683.";
-$canonicalUrl    = "https://www.arkroofingpros.com/services/fences";
+$canonicalUrl    = "https://arkroofingpro.com/services/fences";
 $ogImage         = "https://i.imgur.com/35QsJpi.jpeg";
 $currentPage     = "services";
 $heroImage       = "https://i.imgur.com/35QsJpi.jpeg";
@@ -12,12 +12,18 @@ $schemaMarkup    = '{
   "@context": "https://schema.org",
   "@graph": [
     {"@type": "BreadcrumbList", "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.arkroofingpros.com"},
-      {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.arkroofingpros.com/services"},
-      {"@type": "ListItem", "position": 3, "name": "Fences", "item": "https://www.arkroofingpros.com/services/fences"}
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://arkroofingpro.com"},
+      {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://arkroofingpro.com/services"},
+      {"@type": "ListItem", "position": 3, "name": "Fences", "item": "https://arkroofingpro.com/services/fences"}
     ]},
     {"@type": "Service", "serviceType": "Fence Installation", "provider": {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "telephone": "+12537779683"}, "areaServed": {"@type": "City", "name": "Tacoma", "addressRegion": "WA"}},
-    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}}
+    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}},
+    {"@type": "FAQPage", "mainEntity": [
+      {"@type": "Question", "name": "How long does a cedar fence last in Tacoma?", "acceptedAnswer": {"@type": "Answer", "text": "Western red cedar fencing lasts 15-25 years in the Pacific Northwest depending on maintenance."}},
+      {"@type": "Question", "name": "Can you repair sections of an existing fence?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. If posts and rails are solid, we can replace damaged boards and reinforce leaning sections."}},
+      {"@type": "Question", "name": "Do you also build decks?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Many homeowners combine fence and deck projects to save on mobilization costs."}}
+    ]},
+    {"@type": "WebPage", "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".answer-block", ".entity-block", "h1"]}}
   ]
 }';
 
@@ -46,7 +52,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="prose-centered">
         <p style="font-size: 1.1rem; line-height: 1.7; margin-bottom: var(--space-lg);">New fence installation in Tacoma typically costs between $2,500 and $8,000 for a standard residential lot, depending on materials, fence height, and total linear footage. A 6-foot cedar privacy fence runs roughly $25&ndash;$40 per linear foot installed. Most residential fence projects take 2&ndash;5 days.</p>
-        <p style="font-size: 1.1rem; line-height: 1.7;">Ark Roofing &amp; Renovations has provided fence installation and repair in Tacoma and Pierce County for over 23 years. We build fences the same way we build everything else &mdash; with proper post depth, concrete footings, and materials rated for the moisture and wind conditions of the Pacific Northwest.</p>
+        <p style="font-size: 1.1rem; line-height: 1.7;">Ark Roofing &amp; Renovations has provided fence installation and repair in Tacoma and Pierce County for over 33 years. We build fences the same way we build everything else &mdash; with proper post depth, concrete footings, and materials rated for the moisture and wind conditions of the Pacific Northwest.</p>
       </div>
     </div>
   </section>
@@ -73,13 +79,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
   <section style="padding: var(--section-pad); background: var(--bg);">
     <div class="container">
-      <div class="answer-block" data-animate="fade-up">
-        <h2>How much does a new fence cost in Pierce County?</h2>
-        <p class="prose">Cedar privacy fences run $25&ndash;$40 per linear foot installed. A typical 150-foot perimeter fence costs $4,000&ndash;$6,000. Vinyl fencing costs $30&ndash;$50 per linear foot. Chain-link runs $15&ndash;$25 per linear foot. Gates, slopes, and difficult access add to the total. We provide free on-site measurements and detailed estimates.</p>
+      <div class="answer-block" data-animate="fade-up" itemscope itemtype="https://schema.org/Question">
+        <h2 itemprop="name">How much does a new fence cost in Pierce County?</h2>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p class="prose" itemprop="text">Cedar privacy fences run $25&ndash;$40 per linear foot installed. A typical 150-foot perimeter fence costs $4,000&ndash;$6,000. Vinyl fencing costs $30&ndash;$50 per linear foot. Chain-link runs $15&ndash;$25 per linear foot. Gates, slopes, and difficult access add to the total. We provide free on-site measurements and detailed estimates.</p>
+        </div>
       </div>
-      <div class="answer-block" data-animate="fade-up">
-        <h3>Do I need a permit to build a fence in Tacoma?</h3>
-        <p class="prose">In most cases, residential fences under 6 feet don't require a permit in Tacoma. Fences over 6 feet, fences in front yards, and fences near property lines may have specific setback requirements. We check local regulations before every project and ensure your fence meets Tacoma municipal code.</p>
+      <div class="answer-block" data-animate="fade-up" itemscope itemtype="https://schema.org/Question">
+        <h3 itemprop="name">Do I need a permit to build a fence in Tacoma?</h3>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p class="prose" itemprop="text">In most cases, residential fences under 6 feet don't require a permit in Tacoma. Fences over 6 feet, fences in front yards, and fences near property lines may have specific setback requirements. We check local regulations before every project and ensure your fence meets Tacoma municipal code.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -150,13 +160,5 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
   <div class="container" style="padding: var(--space-lg) 0;"><p style="font-size: 0.85rem; color: var(--text-light);">Last Updated: <?php echo date('F Y'); ?></p></div>
 </main>
-
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-  {"@type":"Question","name":"How long does a cedar fence last in Tacoma?","acceptedAnswer":{"@type":"Answer","text":"Western red cedar fencing lasts 15–25 years in the Pacific Northwest depending on maintenance."}},
-  {"@type":"Question","name":"Can you repair sections of an existing fence?","acceptedAnswer":{"@type":"Answer","text":"Yes. If posts and rails are solid, we can replace damaged boards and reinforce leaning sections."}},
-  {"@type":"Question","name":"Do you also build decks?","acceptedAnswer":{"@type":"Answer","text":"Yes. Many homeowners combine fence and deck projects to save on mobilization costs."}}
-]}
-</script>
 
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>

@@ -1,7 +1,7 @@
 <?php
 $pageTitle       = "Bathroom Remodeling in Tacoma, WA | Ark Roofing & Renovations";
-$pageDescription = "Full bathroom remodels in Tacoma and Pierce County. Tile, fixtures, vanities, showers, and plumbing updates. Licensed & insured. 23+ years experience. Free estimates.";
-$canonicalUrl    = "https://www.arkroofingpros.com/services/bathrooms";
+$pageDescription = "Full bathroom remodels in Tacoma and Pierce County. Tile, fixtures, vanities, showers, and plumbing updates. Licensed & insured. 33+ years experience. Free estimates.";
+$canonicalUrl    = "https://arkroofingpro.com/services/bathrooms";
 $ogImage         = "https://i.imgur.com/jCO71ig.jpeg";
 $currentPage     = "services";
 $heroImage       = "https://i.imgur.com/jCO71ig.jpeg";
@@ -12,12 +12,18 @@ $schemaMarkup    = '{
   "@context": "https://schema.org",
   "@graph": [
     {"@type": "BreadcrumbList", "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.arkroofingpros.com"},
-      {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.arkroofingpros.com/services"},
-      {"@type": "ListItem", "position": 3, "name": "Bathrooms", "item": "https://www.arkroofingpros.com/services/bathrooms"}
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://arkroofingpro.com"},
+      {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://arkroofingpro.com/services"},
+      {"@type": "ListItem", "position": 3, "name": "Bathrooms", "item": "https://arkroofingpro.com/services/bathrooms"}
     ]},
     {"@type": "Service", "serviceType": "Bathroom Remodeling", "provider": {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "telephone": "+12537779683"}, "areaServed": {"@type": "City", "name": "Tacoma", "addressRegion": "WA"}},
-    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}}
+    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}},
+    {"@type": "FAQPage", "mainEntity": [
+      {"@type": "Question", "name": "How long does a bathroom remodel take?", "acceptedAnswer": {"@type": "Answer", "text": "Basic update: 1-2 weeks. Full gut remodel: 3-4 weeks."}},
+      {"@type": "Question", "name": "Can I use my bathroom during the remodel?", "acceptedAnswer": {"@type": "Answer", "text": "Not during an active gut remodel. If you have a second bathroom, you will use that. Otherwise we minimize downtime."}},
+      {"@type": "Question", "name": "Do you handle permits for bathroom remodels?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. Remodels involving plumbing or electrical changes require permits. We handle permits and inspections."}}
+    ]},
+    {"@type": "WebPage", "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".answer-block", ".entity-block", "h1"]}}
   ]
 }';
 
@@ -46,7 +52,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="prose-centered">
         <p style="font-size: 1.1rem; line-height: 1.7; margin-bottom: var(--space-lg);">A bathroom remodel in Tacoma costs between $8,000 and $25,000 depending on the scope. A basic update (new vanity, toilet, fixtures, and paint) runs $8,000&ndash;$12,000. A full gut remodel with tile shower, new <a href="/services/flooring">flooring</a>, <a href="/services/drywall">drywall</a>, and plumbing relocation costs $15,000&ndash;$25,000. Most bathroom remodels take 2&ndash;4 weeks.</p>
-        <p style="font-size: 1.1rem; line-height: 1.7;">Ark Roofing &amp; Renovations has provided bathroom remodeling in Tacoma and Pierce County for over 23 years. Bathrooms are one of the most complex renovation projects in a home &mdash; they involve plumbing, electrical, waterproofing, tile, <a href="/services/drywall">drywall</a>, and <a href="/services/painting">painting</a> all in a confined space. Our crew handles every trade in-house.</p>
+        <p style="font-size: 1.1rem; line-height: 1.7;">Ark Roofing &amp; Renovations has provided bathroom remodeling in Tacoma and Pierce County for over 33 years. Bathrooms are one of the most complex renovation projects in a home &mdash; they involve plumbing, electrical, waterproofing, tile, <a href="/services/drywall">drywall</a>, and <a href="/services/painting">painting</a> all in a confined space. Our crew handles every trade in-house.</p>
       </div>
     </div>
   </section>
@@ -73,13 +79,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
   <section style="padding: var(--section-pad); background: var(--bg);">
     <div class="container">
-      <div class="answer-block" data-animate="fade-up">
-        <h2>How much does a bathroom remodel cost in Tacoma?</h2>
-        <p class="prose">Basic update (fixtures, vanity, paint): $8,000&ndash;$12,000. Mid-range remodel (new tile shower, flooring, vanity, toilet): $12,000&ndash;$18,000. Full gut remodel (everything down to studs, new plumbing layout): $18,000&ndash;$25,000+. Prices vary with material choices &mdash; a porcelain tile shower costs less than natural stone. We provide line-item estimates.</p>
+      <div class="answer-block" data-animate="fade-up" itemscope itemtype="https://schema.org/Question">
+        <h2 itemprop="name">How much does a bathroom remodel cost in Tacoma?</h2>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p class="prose" itemprop="text">Basic update (fixtures, vanity, paint): $8,000&ndash;$12,000. Mid-range remodel (new tile shower, flooring, vanity, toilet): $12,000&ndash;$18,000. Full gut remodel (everything down to studs, new plumbing layout): $18,000&ndash;$25,000+. Prices vary with material choices &mdash; a porcelain tile shower costs less than natural stone. We provide line-item estimates.</p>
+        </div>
       </div>
-      <div class="answer-block" data-animate="fade-up">
-        <h3>Can you convert a bathtub to a walk-in shower?</h3>
-        <p class="prose">Yes, and it's one of our most requested bathroom projects. Tub-to-shower conversions require plumbing modifications, waterproofing, new drain placement, and tile work. We handle the entire conversion including <a href="/services/drywall">drywall repair</a> around the new shower footprint. Most tub-to-shower conversions take 7&ndash;10 days.</p>
+      <div class="answer-block" data-animate="fade-up" itemscope itemtype="https://schema.org/Question">
+        <h3 itemprop="name">Can you convert a bathtub to a walk-in shower?</h3>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p class="prose" itemprop="text">Yes, and it's one of our most requested bathroom projects. Tub-to-shower conversions require plumbing modifications, waterproofing, new drain placement, and tile work. We handle the entire conversion including <a href="/services/drywall">drywall repair</a> around the new shower footprint. Most tub-to-shower conversions take 7&ndash;10 days.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -151,13 +161,5 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
   <div class="container" style="padding: var(--space-lg) 0;"><p style="font-size: 0.85rem; color: var(--text-light);">Last Updated: <?php echo date('F Y'); ?></p></div>
 </main>
-
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-  {"@type":"Question","name":"How long does a bathroom remodel take?","acceptedAnswer":{"@type":"Answer","text":"Basic update: 1–2 weeks. Full gut remodel: 3–4 weeks."}},
-  {"@type":"Question","name":"Can I use my bathroom during the remodel?","acceptedAnswer":{"@type":"Answer","text":"Not during an active gut remodel. If you have a second bathroom, you'll use that. Otherwise we minimize downtime."}},
-  {"@type":"Question","name":"Do you handle permits for bathroom remodels?","acceptedAnswer":{"@type":"Answer","text":"Yes. Remodels involving plumbing or electrical changes require permits. We handle permits and inspections."}}
-]}
-</script>
 
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>

@@ -1,7 +1,7 @@
 <?php
-$pageTitle       = "About Ark Roofing & Renovations — 23 Years Serving Tacoma, WA";
-$pageDescription = "Founded by Wil Letourneau, Ark Roofing & Renovations has served Tacoma and Pierce County for 23+ years. Roofing, siding, decking, and full renovations. Licensed & insured.";
-$canonicalUrl    = "https://www.arkroofingpros.com/about";
+$pageTitle       = "About Ark Roofing & Renovations — 33 Years Serving Tacoma, WA";
+$pageDescription = "Founded by Wil Letourneau, Ark Roofing & Renovations has served Tacoma and Pierce County for 33+ years. Roofing, siding, decking, and full renovations. Licensed & insured.";
+$canonicalUrl    = "https://arkroofingpro.com/about";
 $ogImage         = "https://i.imgur.com/SbSVM6y.jpeg";
 $currentPage     = "about";
 $heroImage       = "https://i.imgur.com/SbSVM6y.jpeg";
@@ -14,16 +14,16 @@ $schemaMarkup    = '{
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.arkroofingpros.com"},
-        {"@type": "ListItem", "position": 2, "name": "About", "item": "https://www.arkroofingpros.com/about"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://arkroofingpro.com"},
+        {"@type": "ListItem", "position": 2, "name": "About", "item": "https://arkroofingpro.com/about"}
       ]
     },
     {
       "@type": "Organization",
       "name": "Ark Roofing & Renovations LLC",
-      "url": "https://www.arkroofingpros.com",
+      "url": "https://arkroofingpro.com",
       "logo": "https://i.imgur.com/40hC7pw.jpeg",
-      "foundingDate": "2002",
+      "foundingDate": "1992",
       "founder": {
         "@type": "Person",
         "name": "Wil Letourneau",
@@ -76,8 +76,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <!-- Hero -->
   <section class="hero" style="background-image: url('https://i.imgur.com/SbSVM6y.jpeg'); min-height: 55vh;">
     <div class="container">
-      <h1>About Ark Roofing &amp; Renovations &mdash; 23 Years Serving Tacoma</h1>
-      <p>Founded by Wil Letourneau, Ark has protected Pierce County homes and businesses since 2002 with honest assessments and hands-on craftsmanship.</p>
+      <h1>About Ark Roofing &amp; Renovations &mdash; 33 Years Serving Tacoma</h1>
+      <p>Founded by Wil Letourneau, Ark has protected Pierce County homes and businesses since 1992 with honest assessments and hands-on craftsmanship.</p>
     </div>
   </section>
 
@@ -85,7 +85,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="padding: var(--section-pad); background: var(--bg);">
     <div class="container">
       <div class="prose-centered">
-        <p style="font-size: 1.1rem; line-height: 1.7; margin-bottom: var(--space-md);">Ark Roofing &amp; Renovations LLC is a licensed and insured roofing and renovation contractor based in Tacoma, WA, serving residential and commercial clients within a 50-mile radius. Founded by Wil Letourneau over 23 years ago, the company started as a focused roofing operation and grew into a full-service exterior and interior renovation contractor handling everything from roof replacements and <a href="/services/siding">siding installations</a> to <a href="/services/decking">deck builds</a>, <a href="/services/gutters">gutter systems</a>, and interior remodeling.</p>
+        <p style="font-size: 1.1rem; line-height: 1.7; margin-bottom: var(--space-md);">Ark Roofing &amp; Renovations LLC is a licensed and insured roofing and renovation contractor based in Tacoma, WA, serving residential and commercial clients within a 50-mile radius. Founded by Wil Letourneau over 33 years ago, the company started as a focused roofing operation and grew into a full-service exterior and interior renovation contractor handling everything from roof replacements and <a href="/services/siding">siding installations</a> to <a href="/services/decking">deck builds</a>, <a href="/services/gutters">gutter systems</a>, and interior remodeling.</p>
         <p style="font-size: 1.1rem; line-height: 1.7;">Ark's reputation was built one roof at a time through consistent craftsmanship and honest assessments. We don't upsell unnecessary work, and we don't cut corners on what matters &mdash; proper underlayment, solid sheathing, correct flashing, and quality materials.</p>
       </div>
     </div>
@@ -99,8 +99,8 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <span class="eyebrow-label">The Founder</span>
           <h2 class="section-title">Wil Letourneau &mdash; Hands-On From Day One</h2>
           <div class="prose">
-            <p style="margin-bottom: var(--space-md);">Wil Letourneau founded Ark Roofing &amp; Renovations in Tacoma, Washington over two decades ago. He's not a sales guy who sends crews out and waits for a check &mdash; he's on job sites, on ladders, and in attics. That hands-on approach is what built the company and what keeps it running the same way today.</p>
-            <p style="margin-bottom: var(--space-md);">Over 23 years, Wil and his crew have torn off thousands of roofs, replaced rotted sheathing hidden behind failing siding, rebuilt decks down to the footings, and handled emergency storm damage calls at all hours. That kind of field experience means problems get caught early &mdash; soft spots in sheathing, failing flashing behind a chimney, rot spreading from a gutter leak into the fascia.</p>
+            <p style="margin-bottom: var(--space-md);">Wil Letourneau founded Ark Roofing &amp; Renovations in Tacoma, Washington over three decades ago. He's not a sales guy who sends crews out and waits for a check &mdash; he's on job sites, on ladders, and in attics. That hands-on approach is what built the company and what keeps it running the same way today.</p>
+            <p style="margin-bottom: var(--space-md);">Over 33 years, Wil and his crew have torn off thousands of roofs, replaced rotted sheathing hidden behind failing siding, rebuilt decks down to the footings, and handled emergency storm damage calls at all hours. That kind of field experience means problems get caught early &mdash; soft spots in sheathing, failing flashing behind a chimney, rot spreading from a gutter leak into the fascia.</p>
             <p>When you get an estimate from Ark, you're talking to the person who will be on your roof &mdash; not a salesperson who disappears after the contract is signed.</p>
           </div>
         </div>
@@ -122,7 +122,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
           <ul class="why-choose-list">
             <li>
               <span class="check-icon"><i data-lucide="check"></i></span>
-              <span><strong>We catch what others miss</strong> &mdash; 23 years of tearing off roofs and pulling siding means we know where damage hides</span>
+              <span><strong>We catch what others miss</strong> &mdash; 33 years of tearing off roofs and pulling siding means we know where damage hides</span>
             </li>
             <li>
               <span class="check-icon"><i data-lucide="check"></i></span>
@@ -156,7 +156,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="grid-2 grid-4-desktop" style="text-align:center;" data-animate="fade-up">
         <div class="stat-counter">
-          <div class="stat-number" data-count="23" data-suffix="+">0+</div>
+          <div class="stat-number" data-count="33" data-suffix="+">0+</div>
           <div class="stat-label">Years in Business</div>
         </div>
         <div class="stat-counter">
@@ -190,7 +190,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section class="closing-cta" data-animate="fade-up">
     <div class="container">
       <h2 class="section-title">Ready to Work With Tacoma's Most Experienced Contractor?</h2>
-      <p style="font-size: 1.1rem; color: rgba(255,255,255,0.8); max-width: 550px; margin-inline: auto; margin-bottom: var(--space-lg);">23 years. Thousands of projects. One standard &mdash; get it right the first time. Call for a free estimate on any roofing or renovation project.</p>
+      <p style="font-size: 1.1rem; color: rgba(255,255,255,0.8); max-width: 550px; margin-inline: auto; margin-bottom: var(--space-lg);">33 years. Thousands of projects. One standard &mdash; get it right the first time. Call for a free estimate on any roofing or renovation project.</p>
       <a href="tel:+12537779683" class="hero-phone" style="margin-bottom: var(--space-xl);">
         <i data-lucide="phone"></i> (253) 777-9683
       </a>

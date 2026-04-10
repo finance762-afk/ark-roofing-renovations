@@ -1,7 +1,7 @@
 <?php
 $pageTitle       = "Drywall Installation & Repair in Tacoma, WA | Ark Roofing & Renovations";
-$pageDescription = "Drywall installation, repair, and finishing in Tacoma and Pierce County. Water damage repair, patching, texturing, and new construction. 23+ years experience. Free estimates.";
-$canonicalUrl    = "https://www.arkroofingpros.com/services/drywall";
+$pageDescription = "Drywall installation, repair, and finishing in Tacoma and Pierce County. Water damage repair, patching, texturing, and new construction. 33+ years experience. Free estimates.";
+$canonicalUrl    = "https://arkroofingpro.com/services/drywall";
 $ogImage         = "https://i.imgur.com/C85V48X.jpeg";
 $currentPage     = "services";
 $heroImage       = "https://i.imgur.com/C85V48X.jpeg";
@@ -12,12 +12,17 @@ $schemaMarkup    = '{
   "@context": "https://schema.org",
   "@graph": [
     {"@type": "BreadcrumbList", "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.arkroofingpros.com"},
-      {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.arkroofingpros.com/services"},
-      {"@type": "ListItem", "position": 3, "name": "Drywall", "item": "https://www.arkroofingpros.com/services/drywall"}
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://arkroofingpro.com"},
+      {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://arkroofingpro.com/services"},
+      {"@type": "ListItem", "position": 3, "name": "Drywall", "item": "https://arkroofingpro.com/services/drywall"}
     ]},
     {"@type": "Service", "serviceType": "Drywall Installation and Repair", "provider": {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "telephone": "+12537779683"}, "areaServed": {"@type": "City", "name": "Tacoma", "addressRegion": "WA"}},
-    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}}
+    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}},
+    {"@type": "FAQPage", "mainEntity": [
+      {"@type": "Question", "name": "How long does drywall repair take?", "acceptedAnswer": {"@type": "Answer", "text": "Small patches: same day. Medium repairs: 2-3 days. Large repairs or full-room: 3-7 days."}},
+      {"@type": "Question", "name": "Should I be concerned about mold behind water-damaged drywall?", "acceptedAnswer": {"@type": "Answer", "text": "Potentially yes. Drywall wet for more than 48 hours may develop mold. We always remove damaged drywall completely and inspect."}}
+    ]},
+    {"@type": "WebPage", "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".answer-block", ".entity-block", "h1"]}}
   ]
 }';
 
@@ -46,7 +51,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="prose-centered">
         <p style="font-size: 1.1rem; line-height: 1.7; margin-bottom: var(--space-lg);">Drywall repair in Tacoma costs between $200 and $1,500 depending on the size and cause of the damage. Full-room drywall installation runs $1.50&ndash;$3.00 per square foot including hanging, taping, mudding, and sanding. Water-damaged drywall requires removal, source repair, and reinstallation &mdash; typically $500&ndash;$2,500 per affected area.</p>
-        <p style="font-size: 1.1rem; line-height: 1.7;">Ark Roofing &amp; Renovations has provided drywall services in Tacoma and Pierce County for over 23 years. We handle drywall as standalone repair work and as part of larger renovation projects including <a href="/services/bathrooms">bathroom remodels</a>, <a href="/services/painting">painting</a>, and water damage restoration after <a href="/services/roofing">roof</a> or <a href="/services/siding">siding</a> failures.</p>
+        <p style="font-size: 1.1rem; line-height: 1.7;">Ark Roofing &amp; Renovations has provided drywall services in Tacoma and Pierce County for over 33 years. We handle drywall as standalone repair work and as part of larger renovation projects including <a href="/services/bathrooms">bathroom remodels</a>, <a href="/services/painting">painting</a>, and water damage restoration after <a href="/services/roofing">roof</a> or <a href="/services/siding">siding</a> failures.</p>
       </div>
     </div>
   </section>
@@ -73,13 +78,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
   <section style="padding: var(--section-pad); background: var(--bg);">
     <div class="container">
-      <div class="answer-block" data-animate="fade-up">
-        <h2>How much does drywall repair cost in Tacoma?</h2>
-        <p class="prose">Small patches (nail holes, doorknob damage): $150&ndash;$300. Medium repairs (water stains, cracks, small holes): $300&ndash;$800. Large repairs (full sheet replacement, ceiling sections, water damage restoration): $800&ndash;$2,500. New drywall installation for additions or remodels: $1.50&ndash;$3.00 per square foot including finish work.</p>
+      <div class="answer-block" data-animate="fade-up" itemscope itemtype="https://schema.org/Question">
+        <h2 itemprop="name">How much does drywall repair cost in Tacoma?</h2>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p class="prose" itemprop="text">Small patches (nail holes, doorknob damage): $150&ndash;$300. Medium repairs (water stains, cracks, small holes): $300&ndash;$800. Large repairs (full sheet replacement, ceiling sections, water damage restoration): $800&ndash;$2,500. New drywall installation for additions or remodels: $1.50&ndash;$3.00 per square foot including finish work.</p>
+        </div>
       </div>
-      <div class="answer-block" data-animate="fade-up">
-        <h3>Can you match existing wall texture?</h3>
-        <p class="prose">Yes. Tacoma homes feature a range of textures including orange peel, knockdown, skip trowel, and smooth finish. We match the existing texture so repairs blend with surrounding walls. Texture matching is a skill that separates professional drywall work from obvious patches. After texturing, we prime and <a href="/services/painting">paint</a> to complete the repair.</p>
+      <div class="answer-block" data-animate="fade-up" itemscope itemtype="https://schema.org/Question">
+        <h3 itemprop="name">Can you match existing wall texture?</h3>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p class="prose" itemprop="text">Yes. Tacoma homes feature a range of textures including orange peel, knockdown, skip trowel, and smooth finish. We match the existing texture so repairs blend with surrounding walls. Texture matching is a skill that separates professional drywall work from obvious patches. After texturing, we prime and <a href="/services/painting">paint</a> to complete the repair.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -146,12 +155,5 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
   <div class="container" style="padding: var(--space-lg) 0;"><p style="font-size: 0.85rem; color: var(--text-light);">Last Updated: <?php echo date('F Y'); ?></p></div>
 </main>
-
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-  {"@type":"Question","name":"How long does drywall repair take?","acceptedAnswer":{"@type":"Answer","text":"Small patches: same day. Medium repairs: 2–3 days. Large repairs or full-room: 3–7 days."}},
-  {"@type":"Question","name":"Should I be concerned about mold behind water-damaged drywall?","acceptedAnswer":{"@type":"Answer","text":"Potentially yes. Drywall wet for more than 48 hours may develop mold. We always remove damaged drywall completely and inspect."}}
-]}
-</script>
 
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>

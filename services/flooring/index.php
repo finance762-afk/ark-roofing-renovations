@@ -1,7 +1,7 @@
 <?php
 $pageTitle       = "Flooring Installation & Replacement in Tacoma, WA | Ark Roofing & Renovations";
 $pageDescription = "Hardwood, laminate, vinyl plank, and tile flooring installation in Tacoma and Pierce County. Part of our full interior renovation services. Free estimates. (253) 777-9683.";
-$canonicalUrl    = "https://www.arkroofingpros.com/services/flooring";
+$canonicalUrl    = "https://arkroofingpro.com/services/flooring";
 $ogImage         = "https://i.imgur.com/L9CjgLi.jpeg";
 $currentPage     = "services";
 $heroImage       = "https://i.imgur.com/L9CjgLi.jpeg";
@@ -12,12 +12,17 @@ $schemaMarkup    = '{
   "@context": "https://schema.org",
   "@graph": [
     {"@type": "BreadcrumbList", "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://www.arkroofingpros.com"},
-      {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://www.arkroofingpros.com/services"},
-      {"@type": "ListItem", "position": 3, "name": "Flooring", "item": "https://www.arkroofingpros.com/services/flooring"}
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://arkroofingpro.com"},
+      {"@type": "ListItem", "position": 2, "name": "Services", "item": "https://arkroofingpro.com/services"},
+      {"@type": "ListItem", "position": 3, "name": "Flooring", "item": "https://arkroofingpro.com/services/flooring"}
     ]},
     {"@type": "Service", "serviceType": "Flooring Installation", "provider": {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "telephone": "+12537779683"}, "areaServed": {"@type": "City", "name": "Tacoma", "addressRegion": "WA"}},
-    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}}
+    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}},
+    {"@type": "FAQPage", "mainEntity": [
+      {"@type": "Question", "name": "How long does flooring installation take?", "acceptedAnswer": {"@type": "Answer", "text": "Most rooms take 1-2 days. A full-house installation takes 3-5 days. Tile takes longer due to setting time."}},
+      {"@type": "Question", "name": "Can you install flooring over existing floors?", "acceptedAnswer": {"@type": "Answer", "text": "In some cases, vinyl plank and laminate can go over existing hard surfaces if flat and in good condition."}}
+    ]},
+    {"@type": "WebPage", "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".answer-block", ".entity-block", "h1"]}}
   ]
 }';
 
@@ -46,7 +51,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <div class="prose-centered">
         <p style="font-size: 1.1rem; line-height: 1.7; margin-bottom: var(--space-lg);">New flooring installation in Tacoma typically costs between $3 and $12 per square foot for materials and installation, depending on the flooring type. Vinyl plank runs $3&ndash;$7/sq ft, laminate $4&ndash;$8/sq ft, hardwood $8&ndash;$12/sq ft, and tile $6&ndash;$15/sq ft. A standard 1,000 sq ft installation takes 2&ndash;5 days depending on the material and subfloor preparation needed.</p>
-        <p style="font-size: 1.1rem; line-height: 1.7;">Ark Roofing &amp; Renovations has provided flooring installation in Tacoma and Pierce County for over 23 years. Flooring is part of our full interior renovation capability &mdash; we handle it as a standalone project or as part of a larger remodel that includes <a href="/services/bathrooms">bathroom renovations</a>, <a href="/services/drywall">drywall work</a>, and <a href="/services/painting">painting</a>.</p>
+        <p style="font-size: 1.1rem; line-height: 1.7;">Ark Roofing &amp; Renovations has provided flooring installation in Tacoma and Pierce County for over 33 years. Flooring is part of our full interior renovation capability &mdash; we handle it as a standalone project or as part of a larger remodel that includes <a href="/services/bathrooms">bathroom renovations</a>, <a href="/services/drywall">drywall work</a>, and <a href="/services/painting">painting</a>.</p>
       </div>
     </div>
   </section>
@@ -74,13 +79,17 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
   <section style="padding: var(--section-pad); background: var(--bg);">
     <div class="container">
-      <div class="answer-block" data-animate="fade-up">
-        <h2>How much does new flooring cost in Tacoma?</h2>
-        <p class="prose">Vinyl plank: $3&ndash;$7/sq ft installed. Laminate: $4&ndash;$8/sq ft. Engineered hardwood: $8&ndash;$12/sq ft. Tile: $6&ndash;$15/sq ft. These prices include material and installation. Subfloor repair, old flooring removal, and transition strips add to the total. We provide detailed room-by-room estimates so you know exactly what each area costs.</p>
+      <div class="answer-block" data-animate="fade-up" itemscope itemtype="https://schema.org/Question">
+        <h2 itemprop="name">How much does new flooring cost in Tacoma?</h2>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p class="prose" itemprop="text">Vinyl plank: $3&ndash;$7/sq ft installed. Laminate: $4&ndash;$8/sq ft. Engineered hardwood: $8&ndash;$12/sq ft. Tile: $6&ndash;$15/sq ft. These prices include material and installation. Subfloor repair, old flooring removal, and transition strips add to the total. We provide detailed room-by-room estimates so you know exactly what each area costs.</p>
+        </div>
       </div>
-      <div class="answer-block" data-animate="fade-up">
-        <h3>Do you remove the old flooring?</h3>
-        <p class="prose">Yes. We handle complete tear-out of existing carpet, vinyl, tile, or laminate. We inspect the subfloor for damage, level any uneven areas, and make repairs before new flooring goes down. Proper subfloor preparation is the difference between flooring that lasts 20 years and flooring that develops squeaks, gaps, or soft spots in 5.</p>
+      <div class="answer-block" data-animate="fade-up" itemscope itemtype="https://schema.org/Question">
+        <h3 itemprop="name">Do you remove the old flooring?</h3>
+        <div itemprop="acceptedAnswer" itemscope itemtype="https://schema.org/Answer">
+          <p class="prose" itemprop="text">Yes. We handle complete tear-out of existing carpet, vinyl, tile, or laminate. We inspect the subfloor for damage, level any uneven areas, and make repairs before new flooring goes down. Proper subfloor preparation is the difference between flooring that lasts 20 years and flooring that develops squeaks, gaps, or soft spots in 5.</p>
+        </div>
       </div>
     </div>
   </section>
@@ -147,12 +156,5 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
   <div class="container" style="padding: var(--space-lg) 0;"><p style="font-size: 0.85rem; color: var(--text-light);">Last Updated: <?php echo date('F Y'); ?></p></div>
 </main>
-
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-  {"@type":"Question","name":"How long does flooring installation take?","acceptedAnswer":{"@type":"Answer","text":"Most rooms take 1–2 days. A full-house installation takes 3–5 days. Tile takes longer due to setting time."}},
-  {"@type":"Question","name":"Can you install flooring over existing floors?","acceptedAnswer":{"@type":"Answer","text":"In some cases, vinyl plank and laminate can go over existing hard surfaces if flat and in good condition."}}
-]}
-</script>
 
 <?php include $_SERVER['DOCUMENT_ROOT'] . '/includes/footer.php'; ?>

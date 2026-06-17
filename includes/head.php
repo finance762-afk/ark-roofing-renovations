@@ -1,3 +1,4 @@
+<?php require_once __DIR__ . "/site-config.php"; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -63,5 +64,6 @@
   <?php echo $schemaMarkup; ?>
   </script>
   <?php endif; ?>
+<?php require_once __DIR__ . '/edit-mode.php'; ?>
 </head>
 <body>

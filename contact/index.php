@@ -48,7 +48,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 
         <!-- Form -->
         <div>
-          <form action="https://formsubmit.co/letourneauwil@gmail.com" method="POST" style="background: var(--bg-alt); padding: var(--space-xl); border-radius: var(--radius); box-shadow: var(--elevation-2);">
+          <form action="https://db.pageone.cloud/functions/v1/leads/ark-roofing-renovations" method="POST" style="background: var(--bg-alt); padding: var(--space-xl); border-radius: var(--radius); box-shadow: var(--elevation-2);">
             <!-- Hidden Fields -->
             <input type="hidden" name="_next" value="https://arkroofingpro.com/thank-you">
             <input type="hidden" name="_captcha" value="false">

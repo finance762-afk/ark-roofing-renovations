@@ -2,9 +2,9 @@
 $pageTitle       = "Siding Installation & Repair in Tacoma, WA | Ark Roofing & Renovations";
 $pageDescription = "Expert siding installation, rot repair, and sheathing replacement in Tacoma and Pierce County. Vinyl, board-and-batten, and fiber cement siding. 33+ years experience. Free estimates.";
 $canonicalUrl    = "https://arkroofingpro.com/services/siding";
-$ogImage         = "https://i.imgur.com/35QsJpi.jpeg";
+$ogImage         = "/assets/images/modern-home-with-dark-board-and-batten-siding-in-480.webp";
 $currentPage     = "services";
-$heroImage       = "https://i.imgur.com/35QsJpi.jpeg";
+$heroImage       = "/assets/images/modern-home-with-dark-board-and-batten-siding-in-480.webp";
 $useSwiper       = false;
 $useTilt         = false;
 $useTyped        = false;
@@ -76,7 +76,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   </div>
 
   <!-- Hero -->
-  <section class="hero" style="background-image: url('https://i.imgur.com/35QsJpi.jpeg'); min-height: 60vh;">
+  <section class="hero" style="background-image: url('/assets/images/modern-home-with-dark-board-and-batten-siding-in-480.webp'); min-height: 60vh;">
     <div class="container">
       <h1>Siding Installation &amp; Repair in Tacoma, WA</h1>
       <p>New siding, rot repair, and weather barrier installation &mdash; protecting Tacoma homes from Pacific Northwest moisture for over 33 years.</p>
@@ -111,7 +111,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </div>
         <div>
           <div class="img-reveal">
-            <img src="https://i.imgur.com/AhjL6hA.jpeg" alt="Rotted OSB sheathing with mold damage discovered during siding removal in Tacoma" width="800" height="600" loading="lazy">
+            <img src="/assets/images/rotted-osb-sheathing-with-mold-damage-discovered-480.webp" alt="Rotted OSB sheathing with mold damage discovered during siding removal in Tacoma" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>
@@ -150,7 +150,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </div>
         <div>
           <div class="img-reveal">
-            <img src="https://i.imgur.com/grD6Rku.jpeg" alt="Jumbo Tex weather barrier installed over new sheathing before siding installation in Tacoma" width="800" height="600" loading="lazy">
+            <img src="/assets/images/jumbo-tex-weather-barrier-installed-over-new-she-480.webp" alt="Jumbo Tex weather barrier installed over new sheathing before siding installation in Tacoma" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>
@@ -201,9 +201,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   <section style="padding: var(--section-pad); background: var(--bg);">
     <div class="container">
       <div class="grid-3" data-animate="fade-up">
-        <div class="img-reveal"><img src="https://i.imgur.com/RDAkzq8.jpeg" alt="Weather barrier over new sheathing during siding replacement" width="800" height="600" loading="lazy"></div>
-        <div class="img-reveal"><img src="https://i.imgur.com/VgsY5TY.jpeg" alt="Severely rotted wood sheathing discovered behind old siding" width="800" height="600" loading="lazy"></div>
-        <div class="img-reveal"><img src="https://i.imgur.com/VO9Fc3L.jpeg" alt="Exposed sheathing and insulation during siding project in Tacoma" width="800" height="600" loading="lazy"></div>
+        <div class="img-reveal"><img src="/assets/images/weather-barrier-installed-over-new-sheathing-dur-480.webp" alt="Weather barrier over new sheathing during siding replacement" width="800" height="600" loading="lazy"></div>
+        <div class="img-reveal"><img src="/assets/images/severely-rotted-wood-sheathing-discovered-behind-480.webp" alt="Severely rotted wood sheathing discovered behind old siding" width="800" height="600" loading="lazy"></div>
+        <div class="img-reveal"><img src="/assets/images/exposed-sheathing-and-insulation-during-siding-p-480.webp" alt="Exposed sheathing and insulation during siding project in Tacoma" width="800" height="600" loading="lazy"></div>
       </div>
     </div>
   </section>

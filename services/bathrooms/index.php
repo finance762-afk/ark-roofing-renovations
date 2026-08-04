@@ -2,9 +2,9 @@
 $pageTitle       = "Bathroom Remodeling in Tacoma, WA | Ark Roofing & Renovations";
 $pageDescription = "Full bathroom remodels in Tacoma and Pierce County. Tile, fixtures, vanities, showers, and plumbing updates. Licensed & insured. 33+ years experience. Free estimates.";
 $canonicalUrl    = "https://arkroofingpro.com/services/bathrooms";
-$ogImage         = "https://i.imgur.com/jCO71ig.jpeg";
+$ogImage         = "/assets/images/residential-home-exterior-in-tacoma-undergoing-r-1600.webp";
 $currentPage     = "services";
-$heroImage       = "https://i.imgur.com/jCO71ig.jpeg";
+$heroImage       = "/assets/images/residential-home-exterior-in-tacoma-undergoing-r-1600.webp";
 $useSwiper       = false;
 $useTilt         = false;
 $useTyped        = false;
@@ -37,7 +37,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span>/</span> <a href="/services">Services</a> <span>/</span> <strong>Bathrooms</strong></nav>
   </div>
 
-  <section class="hero" style="background-image: url('https://i.imgur.com/jCO71ig.jpeg'); min-height: 60vh;">
+  <section class="hero" style="background-image: url('/assets/images/residential-home-exterior-in-tacoma-undergoing-r-1600.webp'); min-height: 60vh;">
     <div class="container">
       <h1>Bathroom Remodeling in Tacoma, WA</h1>
       <p>Full bathroom renovations &mdash; tile, fixtures, vanities, showers, and complete gut remodels for Tacoma homes.</p>
@@ -70,7 +70,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </div>
         <div>
           <div class="img-reveal">
-            <img src="https://i.imgur.com/jCO71ig.jpeg" alt="Residential home exterior in Tacoma undergoing renovation by Ark Roofing & Renovations" width="800" height="600" loading="lazy">
+            <img src="/assets/images/residential-home-exterior-in-tacoma-undergoing-r-960.webp" srcset="/assets/images/residential-home-exterior-in-tacoma-undergoing-r-480.webp 480w, /assets/images/residential-home-exterior-in-tacoma-undergoing-r-960.webp 960w, /assets/images/residential-home-exterior-in-tacoma-undergoing-r-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Residential home exterior in Tacoma undergoing renovation by Ark Roofing & Renovations" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>

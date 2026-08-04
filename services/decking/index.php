@@ -2,9 +2,9 @@
 $pageTitle       = "Deck Building & Repair in Tacoma, WA | Ark Roofing & Renovations";
 $pageDescription = "Custom deck builds, rebuilds, and repairs in Tacoma and Pierce County. From footings to finished railings. Pressure-treated lumber. 33+ years experience. Free estimates.";
 $canonicalUrl    = "https://arkroofingpro.com/services/decking";
-$ogImage         = "https://i.imgur.com/eaLbxz0.jpeg";
+$ogImage         = "/assets/images/new-deck-frame-under-construction-with-pressure-1600.webp";
 $currentPage     = "services";
-$heroImage       = "https://i.imgur.com/eaLbxz0.jpeg";
+$heroImage       = "/assets/images/new-deck-frame-under-construction-with-pressure-1600.webp";
 $useSwiper       = false;
 $useTilt         = false;
 $useTyped        = false;
@@ -71,7 +71,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     </nav>
   </div>
 
-  <section class="hero" style="background-image: url('https://i.imgur.com/eaLbxz0.jpeg'); min-height: 60vh;">
+  <section class="hero" style="background-image: url('/assets/images/new-deck-frame-under-construction-with-pressure-1600.webp'); min-height: 60vh;">
     <div class="container">
       <h1>Deck Building &amp; Repair in Tacoma, WA</h1>
       <p>Custom deck builds from footings to railings &mdash; demolition, framing, and finishing by a crew that's been building in Pierce County for 33 years.</p>
@@ -106,7 +106,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </div>
         <div>
           <div class="img-reveal">
-            <img src="https://i.imgur.com/QggY23s.jpeg" alt="Old rotted deck being demolished for replacement in Tacoma, WA" width="800" height="600" loading="lazy">
+            <img src="/assets/images/old-rotted-deck-being-demolished-for-replacement-960.webp" srcset="/assets/images/old-rotted-deck-being-demolished-for-replacement-480.webp 480w, /assets/images/old-rotted-deck-being-demolished-for-replacement-960.webp 960w, /assets/images/old-rotted-deck-being-demolished-for-replacement-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Old rotted deck being demolished for replacement in Tacoma, WA" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>
@@ -161,7 +161,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </div>
         <div>
           <div class="img-reveal">
-            <img src="https://i.imgur.com/OKMCowQ.jpeg" alt="Deck framing in progress with stained pressure-treated lumber in Tacoma" width="800" height="600" loading="lazy">
+            <img src="/assets/images/deck-framing-in-progress-with-stained-lumber-pie-960.webp" srcset="/assets/images/deck-framing-in-progress-with-stained-lumber-pie-480.webp 480w, /assets/images/deck-framing-in-progress-with-stained-lumber-pie-960.webp 960w, /assets/images/deck-framing-in-progress-with-stained-lumber-pie-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Deck framing in progress with stained pressure-treated lumber in Tacoma" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>
@@ -183,9 +183,9 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <div class="container">
       <h2 class="section-title" style="text-align:center; margin-bottom: var(--space-2xl);" data-animate="fade-up">Deck Projects in Pierce County</h2>
       <div class="grid-3" data-animate="fade-up">
-        <div class="img-reveal"><img src="https://i.imgur.com/UWv8wDJ.jpeg" alt="Concrete pier blocks set for new deck foundation in Tacoma" width="800" height="600" loading="lazy"></div>
-        <div class="img-reveal"><img src="https://i.imgur.com/lz1XEc0.jpeg" alt="Deck frame viewed from back of house during construction" width="800" height="600" loading="lazy"></div>
-        <div class="img-reveal"><img src="https://i.imgur.com/45Z90IV.jpeg" alt="Deck footings being set during new deck build in Pierce County" width="800" height="600" loading="lazy"></div>
+        <div class="img-reveal"><img src="/assets/images/concrete-pier-blocks-set-for-new-deck-foundation-960.webp" srcset="/assets/images/concrete-pier-blocks-set-for-new-deck-foundation-480.webp 480w, /assets/images/concrete-pier-blocks-set-for-new-deck-foundation-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Concrete pier blocks set for new deck foundation in Tacoma" width="800" height="600" loading="lazy"></div>
+        <div class="img-reveal"><img src="/assets/images/deck-frame-viewed-from-back-of-house-during-cons-960.webp" srcset="/assets/images/deck-frame-viewed-from-back-of-house-during-cons-480.webp 480w, /assets/images/deck-frame-viewed-from-back-of-house-during-cons-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Deck frame viewed from back of house during construction" width="800" height="600" loading="lazy"></div>
+        <div class="img-reveal"><img src="/assets/images/deck-footings-being-set-during-new-deck-build-in-960.webp" srcset="/assets/images/deck-footings-being-set-during-new-deck-build-in-480.webp 480w, /assets/images/deck-footings-being-set-during-new-deck-build-in-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="Deck footings being set during new deck build in Pierce County" width="800" height="600" loading="lazy"></div>
       </div>
     </div>
   </section>

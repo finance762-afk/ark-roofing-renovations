@@ -2,7 +2,7 @@
 $pageTitle       = "Contact Ark Roofing & Renovations — Free Estimates in Tacoma, WA";
 $pageDescription = "Request a free roofing or renovation estimate from Ark Roofing & Renovations in Tacoma, WA. Call (253) 777-9683 or fill out our contact form. Licensed & insured. 33+ years experience.";
 $canonicalUrl    = "https://arkroofingpro.com/contact";
-$ogImage         = "https://i.imgur.com/q0vb42l.jpeg";
+$ogImage         = "/assets/images/q0vb42l-480.webp";
 $currentPage     = "contact";
 $heroImage       = "";
 $useSwiper       = false;

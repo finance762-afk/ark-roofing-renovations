@@ -2,9 +2,9 @@
 $pageTitle       = "Ark Roofing & Renovations LLC | Roofing & Home Renovation in Tacoma, WA";
 $pageDescription = "Ark Roofing & Renovations has served Tacoma and Pierce County for 33+ years. Roofing, siding, decking, gutters, and interior renovations. Licensed & insured. Free estimates. (253) 777-9683.";
 $canonicalUrl    = "https://arkroofingpro.com";
-$ogImage         = "https://i.imgur.com/q0vb42l.jpeg";
+$ogImage         = "/assets/images/q0vb42l-480.webp";
 $currentPage     = "home";
-$heroImage       = "https://i.imgur.com/q0vb42l.jpeg";
+$heroImage       = "/assets/images/q0vb42l-480.webp";
 $useSwiper       = false;
 $useTilt         = false;
 $useTyped        = false;
@@ -14,7 +14,7 @@ $schemaMarkup    = '{
     {
       "@type": "LocalBusiness",
       "name": "Ark Roofing & Renovations LLC",
-      "image": "https://i.imgur.com/q0vb42l.jpeg",
+      "image": "/assets/images/q0vb42l-480.webp",
       "url": "https://arkroofingpro.com",
       "telephone": "+12537779683",
       "email": "letourneauwil@gmail.com",
@@ -125,7 +125,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
 <main id="main-content">
 
   <!-- ========== HERO ========== -->
-  <section class="hero" style="background-image: url('https://i.imgur.com/q0vb42l.jpeg');">
+  <section class="hero" style="background-image: url('/assets/images/q0vb42l-480.webp');">
     <div class="container">
       <h1>Tacoma's Trusted Roofing &amp; Renovation Contractor &mdash; 33 Years Strong</h1>
       <p>From roof replacements to full interior remodels, Ark Roofing &amp; Renovations has protected Pierce County homes and businesses since 1992.</p>
@@ -272,7 +272,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </div>
         <div>
           <div class="img-reveal">
-            <img src="https://i.imgur.com/f50cmSw.jpeg" alt="Completed gray asphalt shingle roof replacement by Ark Roofing in Tacoma, WA" width="800" height="600" loading="lazy">
+            <img src="/assets/images/completed-gray-asphalt-shingle-roof-replacement-480.webp" alt="Completed gray asphalt shingle roof replacement by Ark Roofing in Tacoma, WA" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>
@@ -312,22 +312,22 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       </div>
       <div class="gallery-grid" data-animate="fade-up">
         <div class="gallery-item">
-          <img src="https://i.imgur.com/touIPIj.jpeg" alt="Completed dark gray roof with plumbing vents and solar tube, Tacoma roofing project" width="800" height="600" loading="lazy">
+          <img src="/assets/images/completed-dark-gray-roof-with-plumbing-vents-and-480.webp" alt="Completed dark gray roof with plumbing vents and solar tube, Tacoma roofing project" width="800" height="600" loading="lazy">
         </div>
         <div class="gallery-item">
-          <img src="https://i.imgur.com/35QsJpi.jpeg" alt="Modern home with dark board-and-batten siding installed by Ark Roofing & Renovations" width="800" height="600" loading="lazy">
+          <img src="/assets/images/modern-home-with-dark-board-and-batten-siding-in-480.webp" alt="Modern home with dark board-and-batten siding installed by Ark Roofing & Renovations" width="800" height="600" loading="lazy">
         </div>
         <div class="gallery-item">
-          <img src="https://i.imgur.com/eaLbxz0.jpeg" alt="New deck frame under construction with pressure-treated lumber in Tacoma, WA" width="800" height="600" loading="lazy">
+          <img src="/assets/images/new-deck-frame-under-construction-with-pressure-960.webp" srcset="/assets/images/new-deck-frame-under-construction-with-pressure-480.webp 480w, /assets/images/new-deck-frame-under-construction-with-pressure-960.webp 960w, /assets/images/new-deck-frame-under-construction-with-pressure-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="New deck frame under construction with pressure-treated lumber in Tacoma, WA" width="800" height="600" loading="lazy">
         </div>
         <div class="gallery-item">
-          <img src="https://i.imgur.com/LH3fPDe.jpeg" alt="Completed asphalt shingle roof overlooking suburban Tacoma neighborhood" width="800" height="600" loading="lazy">
+          <img src="/assets/images/completed-asphalt-shingle-roof-overlooking-subur-480.webp" alt="Completed asphalt shingle roof overlooking suburban Tacoma neighborhood" width="800" height="600" loading="lazy">
         </div>
         <div class="gallery-item">
-          <img src="https://i.imgur.com/RDAkzq8.jpeg" alt="Weather barrier installed over new sheathing during siding replacement project" width="800" height="600" loading="lazy">
+          <img src="/assets/images/weather-barrier-installed-over-new-sheathing-dur-480.webp" alt="Weather barrier installed over new sheathing during siding replacement project" width="800" height="600" loading="lazy">
         </div>
         <div class="gallery-item">
-          <img src="https://i.imgur.com/OKMCowQ.jpeg" alt="Deck framing in progress with stained lumber, Pierce County deck build" width="800" height="600" loading="lazy">
+          <img src="/assets/images/deck-framing-in-progress-with-stained-lumber-pie-960.webp" srcset="/assets/images/deck-framing-in-progress-with-stained-lumber-pie-480.webp 480w, /assets/images/deck-framing-in-progress-with-stained-lumber-pie-960.webp 960w, /assets/images/deck-framing-in-progress-with-stained-lumber-pie-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Deck framing in progress with stained lumber, Pierce County deck build" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>
@@ -349,7 +349,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </div>
         <div>
           <div class="img-reveal">
-            <img src="https://i.imgur.com/SbSVM6y.jpeg" alt="Ark Roofing & Renovations black work truck with dump trailer at job site in Tacoma, WA" width="800" height="600" loading="lazy">
+            <img src="/assets/images/ark-roofing-renovations-black-work-truck-with-du-480.webp" alt="Ark Roofing & Renovations black work truck with dump trailer at job site in Tacoma, WA" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>

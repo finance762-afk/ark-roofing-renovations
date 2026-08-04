@@ -4,7 +4,7 @@
 <!-- Navbar -->
 <nav class="navbar" aria-label="Main navigation">
   <div class="container">
-    <a href="/" class="navbar-logo"><img src="https://i.imgur.com/40hC7pw.jpeg" alt="Ark Roofing & Renovations LLC" width="160" height="50"></a>
+    <a href="/" class="navbar-logo"><img src="/assets/images/logo.jpeg" alt="Ark Roofing & Renovations LLC" width="160" height="50"></a>
 
     <ul class="nav-links">
       <li><a href="/" <?php if ($currentPage === 'home') echo 'aria-current="page"'; ?>>Home</a></li>

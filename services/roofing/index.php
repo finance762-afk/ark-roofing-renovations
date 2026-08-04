@@ -2,9 +2,9 @@
 $pageTitle       = "Roof Replacement & Repair in Tacoma, WA | Ark Roofing & Renovations";
 $pageDescription = "Tacoma's trusted roofing contractor for 33+ years. Full roof replacements, tear-offs, storm damage repair, and insurance claims. Licensed & insured. Free estimates. (253) 777-9683.";
 $canonicalUrl    = "https://arkroofingpro.com/services/roofing";
-$ogImage         = "https://i.imgur.com/q0vb42l.jpeg";
+$ogImage         = "/assets/images/q0vb42l-480.webp";
 $currentPage     = "services";
-$heroImage       = "https://i.imgur.com/q0vb42l.jpeg";
+$heroImage       = "/assets/images/q0vb42l-480.webp";
 $useSwiper       = false;
 $useTilt         = false;
 $useTyped        = false;
@@ -95,7 +95,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   </div>
 
   <!-- Hero Section -->
-  <section class="hero" style="background-image: url('https://i.imgur.com/q0vb42l.jpeg'); min-height: 60vh;">
+  <section class="hero" style="background-image: url('/assets/images/q0vb42l-480.webp'); min-height: 60vh;">
     <div class="container">
       <h1>Roof Replacement &amp; Repair in Tacoma, WA</h1>
       <p>Full tear-offs, new installations, storm damage repair, and insurance claims &mdash; backed by 33 years of hands-on roofing experience across Pierce County.</p>
@@ -130,7 +130,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </div>
         <div>
           <div class="img-reveal">
-            <img src="https://i.imgur.com/clO9k7B.jpeg" alt="Brick chimney with damaged roof flashing requiring repair in Tacoma, WA" width="800" height="600" loading="lazy">
+            <img src="/assets/images/damaged-chimney-flashing-requiring-emergency-rep-480.webp" alt="Brick chimney with damaged roof flashing requiring repair in Tacoma, WA" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>
@@ -195,7 +195,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </div>
         <div>
           <div class="img-reveal">
-            <img src="https://i.imgur.com/qhvMTOy.jpeg" alt="APOC Gator-Skin underlayment installed on roof deck during replacement in Tacoma" width="800" height="600" loading="lazy">
+            <img src="/assets/images/apoc-gator-skin-underlayment-installed-on-roof-d-960.webp" srcset="/assets/images/apoc-gator-skin-underlayment-installed-on-roof-d-480.webp 480w, /assets/images/apoc-gator-skin-underlayment-installed-on-roof-d-960.webp 960w" sizes="(max-width: 768px) 100vw, 800px" alt="APOC Gator-Skin underlayment installed on roof deck during replacement in Tacoma" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>
@@ -222,13 +222,13 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
       <h2 class="section-title" style="text-align:center; margin-bottom: var(--space-2xl);" data-animate="fade-up">Roofing Projects Across Pierce County</h2>
       <div class="grid-3" data-animate="fade-up">
         <div class="img-reveal">
-          <img src="https://i.imgur.com/f50cmSw.jpeg" alt="Completed gray shingle roof with green shed in background, Tacoma roofing project" width="800" height="600" loading="lazy">
+          <img src="/assets/images/completed-gray-asphalt-shingle-roof-replacement-480.webp" alt="Completed gray shingle roof with green shed in background, Tacoma roofing project" width="800" height="600" loading="lazy">
         </div>
         <div class="img-reveal">
-          <img src="https://i.imgur.com/LH3fPDe.jpeg" alt="Completed asphalt shingle roof overlooking suburban Tacoma street" width="800" height="600" loading="lazy">
+          <img src="/assets/images/completed-asphalt-shingle-roof-overlooking-subur-480.webp" alt="Completed asphalt shingle roof overlooking suburban Tacoma street" width="800" height="600" loading="lazy">
         </div>
         <div class="img-reveal">
-          <img src="https://i.imgur.com/touIPIj.jpeg" alt="Dark gray completed roof with plumbing vents and solar tube in Tacoma" width="800" height="600" loading="lazy">
+          <img src="/assets/images/completed-dark-gray-roof-with-plumbing-vents-and-480.webp" alt="Dark gray completed roof with plumbing vents and solar tube in Tacoma" width="800" height="600" loading="lazy">
         </div>
       </div>
     </div>
@@ -248,7 +248,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </div>
         <div>
           <div class="img-reveal">
-            <img src="https://i.imgur.com/DllQ5VJ.jpeg" alt="Roofing crew removing damaged roofing material from blue house during storm repair in Tacoma" width="800" height="600" loading="lazy">
+            <img src="/assets/images/roofing-crew-removing-damaged-roofing-material-f-960.webp" srcset="/assets/images/roofing-crew-removing-damaged-roofing-material-f-480.webp 480w, /assets/images/roofing-crew-removing-damaged-roofing-material-f-960.webp 960w, /assets/images/roofing-crew-removing-damaged-roofing-material-f-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Roofing crew removing damaged roofing material from blue house during storm repair in Tacoma" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>
@@ -269,7 +269,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </div>
         <div>
           <div class="img-reveal">
-            <img src="https://i.imgur.com/zGmSLMG.jpeg" alt="Dumpster full of old roofing tear-off debris from Tacoma roof replacement project" width="800" height="600" loading="lazy">
+            <img src="/assets/images/dumpster-full-of-old-roofing-tear-off-debris-fro-480.webp" alt="Dumpster full of old roofing tear-off debris from Tacoma roof replacement project" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>

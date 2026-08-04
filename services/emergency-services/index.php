@@ -2,9 +2,9 @@
 $pageTitle       = "Emergency Roofing & Repair Services in Tacoma, WA | Ark Roofing & Renovations";
 $pageDescription = "Emergency roof repair, storm damage tarping, and urgent home repairs in Tacoma and Pierce County. Rapid response for leaks, wind damage, and fallen trees. Call (253) 777-9683.";
 $canonicalUrl    = "https://arkroofingpro.com/services/emergency-services";
-$ogImage         = "https://i.imgur.com/DllQ5VJ.jpeg";
+$ogImage         = "/assets/images/roofing-crew-removing-damaged-roofing-material-f-1600.webp";
 $currentPage     = "services";
-$heroImage       = "https://i.imgur.com/DllQ5VJ.jpeg";
+$heroImage       = "/assets/images/roofing-crew-removing-damaged-roofing-material-f-1600.webp";
 $useSwiper       = false;
 $useTilt         = false;
 $useTyped        = false;
@@ -37,7 +37,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span>/</span> <a href="/services">Services</a> <span>/</span> <strong>Emergency Services</strong></nav>
   </div>
 
-  <section class="hero" style="background-image: url('https://i.imgur.com/DllQ5VJ.jpeg'); min-height: 60vh;">
+  <section class="hero" style="background-image: url('/assets/images/roofing-crew-removing-damaged-roofing-material-f-1600.webp'); min-height: 60vh;">
     <div class="container">
       <h1>Emergency Roofing &amp; Repair Services in Tacoma, WA</h1>
       <p>Rapid response for storm damage, active leaks, fallen trees, and wind damage across Pierce County. Don't wait &mdash; call now.</p>
@@ -76,7 +76,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </div>
         <div>
           <div class="img-reveal">
-            <img src="https://i.imgur.com/clO9k7B.jpeg" alt="Damaged chimney flashing requiring emergency repair on Tacoma home" width="800" height="600" loading="lazy">
+            <img src="/assets/images/damaged-chimney-flashing-requiring-emergency-rep-480.webp" alt="Damaged chimney flashing requiring emergency repair on Tacoma home" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>
@@ -141,7 +141,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </div>
         <div>
           <div class="img-reveal">
-            <img src="https://i.imgur.com/C85V48X.jpeg" alt="Large two-story home under stormy skies requiring emergency roofing assessment in Pierce County" width="800" height="600" loading="lazy">
+            <img src="/assets/images/large-two-story-home-in-tacoma-requiring-interio-960.webp" srcset="/assets/images/large-two-story-home-in-tacoma-requiring-interio-480.webp 480w, /assets/images/large-two-story-home-in-tacoma-requiring-interio-960.webp 960w, /assets/images/large-two-story-home-in-tacoma-requiring-interio-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Large two-story home under stormy skies requiring emergency roofing assessment in Pierce County" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>

@@ -2,9 +2,9 @@
 $pageTitle       = "Flooring Installation & Replacement in Tacoma, WA | Ark Roofing & Renovations";
 $pageDescription = "Hardwood, laminate, vinyl plank, and tile flooring installation in Tacoma and Pierce County. Part of our full interior renovation services. Free estimates. (253) 777-9683.";
 $canonicalUrl    = "https://arkroofingpro.com/services/flooring";
-$ogImage         = "https://i.imgur.com/L9CjgLi.jpeg";
+$ogImage         = "/assets/images/active-renovation-project-with-permit-sign-visib-480.webp";
 $currentPage     = "services";
-$heroImage       = "https://i.imgur.com/L9CjgLi.jpeg";
+$heroImage       = "/assets/images/active-renovation-project-with-permit-sign-visib-480.webp";
 $useSwiper       = false;
 $useTilt         = false;
 $useTyped        = false;
@@ -36,7 +36,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span>/</span> <a href="/services">Services</a> <span>/</span> <strong>Flooring</strong></nav>
   </div>
 
-  <section class="hero" style="background-image: url('https://i.imgur.com/L9CjgLi.jpeg'); min-height: 60vh;">
+  <section class="hero" style="background-image: url('/assets/images/active-renovation-project-with-permit-sign-visib-480.webp'); min-height: 60vh;">
     <div class="container">
       <h1>Flooring Installation &amp; Replacement in Tacoma, WA</h1>
       <p>Hardwood, laminate, vinyl plank, and tile flooring for residential homes across Pierce County.</p>
@@ -70,7 +70,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </div>
         <div>
           <div class="img-reveal">
-            <img src="https://i.imgur.com/L9CjgLi.jpeg" alt="Active renovation project with permit sign visible at Tacoma residential property" width="800" height="600" loading="lazy">
+            <img src="/assets/images/active-renovation-project-with-permit-sign-visib-480.webp" alt="Active renovation project with permit sign visible at Tacoma residential property" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>

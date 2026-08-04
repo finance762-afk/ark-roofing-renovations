@@ -2,9 +2,9 @@
 $pageTitle       = "Interior & Exterior Painting in Tacoma, WA | Ark Roofing & Renovations";
 $pageDescription = "Professional interior and exterior painting in Tacoma and Pierce County. Prep, prime, and paint for lasting finishes. Often paired with siding and drywall projects. Free estimates.";
 $canonicalUrl    = "https://arkroofingpro.com/services/painting";
-$ogImage         = "https://i.imgur.com/35QsJpi.jpeg";
+$ogImage         = "/assets/images/modern-home-with-dark-board-and-batten-siding-in-480.webp";
 $currentPage     = "services";
-$heroImage       = "https://i.imgur.com/35QsJpi.jpeg";
+$heroImage       = "/assets/images/modern-home-with-dark-board-and-batten-siding-in-480.webp";
 $useSwiper       = false;
 $useTilt         = false;
 $useTyped        = false;
@@ -37,7 +37,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span>/</span> <a href="/services">Services</a> <span>/</span> <strong>Painting</strong></nav>
   </div>
 
-  <section class="hero" style="background-image: url('https://i.imgur.com/35QsJpi.jpeg'); min-height: 60vh;">
+  <section class="hero" style="background-image: url('/assets/images/modern-home-with-dark-board-and-batten-siding-in-480.webp'); min-height: 60vh;">
     <div class="container">
       <h1>Interior &amp; Exterior Painting in Tacoma, WA</h1>
       <p>Professional painting with proper prep, priming, and lasting finishes for homes across Pierce County.</p>
@@ -70,7 +70,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </div>
         <div>
           <div class="img-reveal">
-            <img src="https://i.imgur.com/dMPiKGA.jpeg" alt="Multi-level dark painted home with multiple rooflines showing quality exterior paint work" width="800" height="600" loading="lazy">
+            <img src="/assets/images/multi-level-dark-painted-home-with-multiple-roof-480.webp" alt="Multi-level dark painted home with multiple rooflines showing quality exterior paint work" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>

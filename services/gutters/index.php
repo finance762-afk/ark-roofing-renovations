@@ -2,9 +2,9 @@
 $pageTitle       = "Gutter Installation & Repair in Tacoma, WA | Ark Roofing & Renovations";
 $pageDescription = "Gutter installation, repair, and replacement in Tacoma and Pierce County. Seamless gutters, downspout routing, and drainage solutions. 33+ years experience. Free estimates.";
 $canonicalUrl    = "https://arkroofingpro.com/services/gutters";
-$ogImage         = "https://i.imgur.com/LH3fPDe.jpeg";
+$ogImage         = "/assets/images/completed-asphalt-shingle-roof-overlooking-subur-480.webp";
 $currentPage     = "services";
-$heroImage       = "https://i.imgur.com/Ax4CYwh.jpeg";
+$heroImage       = "/assets/images/home-exterior-showing-roofline-soffit-fascia-and-480.webp";
 $useSwiper       = false;
 $useTilt         = false;
 $useTyped        = false;
@@ -36,7 +36,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span>/</span> <a href="/services">Services</a> <span>/</span> <strong>Gutters</strong></nav>
   </div>
 
-  <section class="hero" style="background-image: url('https://i.imgur.com/Ax4CYwh.jpeg'); min-height: 60vh;">
+  <section class="hero" style="background-image: url('/assets/images/home-exterior-showing-roofline-soffit-fascia-and-480.webp'); min-height: 60vh;">
     <div class="container">
       <h1>Gutter Installation &amp; Repair in Tacoma, WA</h1>
       <p>Seamless gutters, downspout routing, and drainage solutions designed for Tacoma's 38 inches of annual rainfall.</p>
@@ -69,7 +69,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </div>
         <div>
           <div class="img-reveal">
-            <img src="https://i.imgur.com/LH3fPDe.jpeg" alt="Completed roof with visible gutter system and drip edge in Tacoma neighborhood" width="800" height="600" loading="lazy">
+            <img src="/assets/images/completed-asphalt-shingle-roof-overlooking-subur-480.webp" alt="Completed roof with visible gutter system and drip edge in Tacoma neighborhood" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>

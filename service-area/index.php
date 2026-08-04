@@ -2,7 +2,7 @@
 $pageTitle       = "Service Area — Roofing & Renovations Within 50 Miles of Tacoma, WA";
 $pageDescription = "Ark Roofing & Renovations serves Tacoma, Lakewood, Puyallup, Federal Way, Olympia, Bremerton, and all communities within 50 miles. Roofing, siding, decking & more.";
 $canonicalUrl    = "https://arkroofingpro.com/service-area";
-$ogImage         = "https://i.imgur.com/C85V48X.jpeg";
+$ogImage         = "/assets/images/large-two-story-home-in-tacoma-requiring-interio-1600.webp";
 $currentPage     = "service-area";
 $heroImage       = "";
 $useSwiper       = false;
@@ -102,7 +102,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </div>
         <div>
           <div class="img-reveal">
-            <img src="https://i.imgur.com/C85V48X.jpeg" alt="Large two-story home in Pierce County requiring roofing and renovation services" width="800" height="600" loading="lazy">
+            <img src="/assets/images/large-two-story-home-in-tacoma-requiring-interio-960.webp" srcset="/assets/images/large-two-story-home-in-tacoma-requiring-interio-480.webp 480w, /assets/images/large-two-story-home-in-tacoma-requiring-interio-960.webp 960w, /assets/images/large-two-story-home-in-tacoma-requiring-interio-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Large two-story home in Pierce County requiring roofing and renovation services" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>

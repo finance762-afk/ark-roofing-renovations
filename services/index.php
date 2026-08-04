@@ -2,7 +2,7 @@
 $pageTitle       = "Our Services | Roofing, Renovations & More | Ark Roofing & Renovations LLC";
 $pageDescription = "Ark Roofing & Renovations provides roofing, siding, decking, gutters, fences, and interior renovation services across Tacoma and Pierce County. Licensed & insured. 33+ years experience.";
 $canonicalUrl    = "https://arkroofingpro.com/services";
-$ogImage         = "https://i.imgur.com/q0vb42l.jpeg";
+$ogImage         = "/assets/images/q0vb42l-480.webp";
 $currentPage     = "services";
 $heroImage       = "";
 $useSwiper       = false;

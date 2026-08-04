@@ -2,9 +2,9 @@
 $pageTitle       = "Fence Installation & Repair in Tacoma, WA | Ark Roofing & Renovations";
 $pageDescription = "Professional fence installation and repair in Tacoma and Pierce County. Wood, vinyl, and chain-link fencing for privacy, security, and curb appeal. Free estimates. (253) 777-9683.";
 $canonicalUrl    = "https://arkroofingpro.com/services/fences";
-$ogImage         = "https://i.imgur.com/35QsJpi.jpeg";
+$ogImage         = "/assets/images/modern-home-with-dark-board-and-batten-siding-in-480.webp";
 $currentPage     = "services";
-$heroImage       = "https://i.imgur.com/35QsJpi.jpeg";
+$heroImage       = "/assets/images/modern-home-with-dark-board-and-batten-siding-in-480.webp";
 $useSwiper       = false;
 $useTilt         = false;
 $useTyped        = false;
@@ -37,7 +37,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span>/</span> <a href="/services">Services</a> <span>/</span> <strong>Fences</strong></nav>
   </div>
 
-  <section class="hero" style="background-image: url('https://i.imgur.com/35QsJpi.jpeg'); min-height: 60vh;">
+  <section class="hero" style="background-image: url('/assets/images/modern-home-with-dark-board-and-batten-siding-in-480.webp'); min-height: 60vh;">
     <div class="container">
       <h1>Fence Installation &amp; Repair in Tacoma, WA</h1>
       <p>Wood, vinyl, and chain-link fencing for residential properties across Pierce County. Built to handle Pacific Northwest weather.</p>
@@ -70,7 +70,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </div>
         <div>
           <div class="img-reveal">
-            <img src="https://i.imgur.com/jCO71ig.jpeg" alt="Home exterior with fence line in Tacoma, WA neighborhood" width="800" height="600" loading="lazy">
+            <img src="/assets/images/residential-home-exterior-in-tacoma-undergoing-r-960.webp" srcset="/assets/images/residential-home-exterior-in-tacoma-undergoing-r-480.webp 480w, /assets/images/residential-home-exterior-in-tacoma-undergoing-r-960.webp 960w, /assets/images/residential-home-exterior-in-tacoma-undergoing-r-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Home exterior with fence line in Tacoma, WA neighborhood" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>

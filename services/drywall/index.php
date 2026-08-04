@@ -2,9 +2,9 @@
 $pageTitle       = "Drywall Installation & Repair in Tacoma, WA | Ark Roofing & Renovations";
 $pageDescription = "Drywall installation, repair, and finishing in Tacoma and Pierce County. Water damage repair, patching, texturing, and new construction. 33+ years experience. Free estimates.";
 $canonicalUrl    = "https://arkroofingpro.com/services/drywall";
-$ogImage         = "https://i.imgur.com/C85V48X.jpeg";
+$ogImage         = "/assets/images/large-two-story-home-in-tacoma-requiring-interio-1600.webp";
 $currentPage     = "services";
-$heroImage       = "https://i.imgur.com/C85V48X.jpeg";
+$heroImage       = "/assets/images/large-two-story-home-in-tacoma-requiring-interio-1600.webp";
 $useSwiper       = false;
 $useTilt         = false;
 $useTyped        = false;
@@ -36,7 +36,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span>/</span> <a href="/services">Services</a> <span>/</span> <strong>Drywall</strong></nav>
   </div>
 
-  <section class="hero" style="background-image: url('https://i.imgur.com/C85V48X.jpeg'); min-height: 60vh;">
+  <section class="hero" style="background-image: url('/assets/images/large-two-story-home-in-tacoma-requiring-interio-1600.webp'); min-height: 60vh;">
     <div class="container">
       <h1>Drywall Installation &amp; Repair in Tacoma, WA</h1>
       <p>New drywall hanging, taping, mudding, texturing, and water damage repair for homes and businesses across Pierce County.</p>
@@ -69,7 +69,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </div>
         <div>
           <div class="img-reveal">
-            <img src="https://i.imgur.com/C85V48X.jpeg" alt="Large two-story home in Tacoma requiring interior and exterior renovation" width="800" height="600" loading="lazy">
+            <img src="/assets/images/large-two-story-home-in-tacoma-requiring-interio-960.webp" srcset="/assets/images/large-two-story-home-in-tacoma-requiring-interio-480.webp 480w, /assets/images/large-two-story-home-in-tacoma-requiring-interio-960.webp 960w, /assets/images/large-two-story-home-in-tacoma-requiring-interio-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Large two-story home in Tacoma requiring interior and exterior renovation" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>

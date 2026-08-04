@@ -2,9 +2,9 @@
 $pageTitle       = "About Ark Roofing & Renovations — 33 Years Serving Tacoma, WA";
 $pageDescription = "Founded by Wil Letourneau, Ark Roofing & Renovations has served Tacoma and Pierce County for 33+ years. Roofing, siding, decking, and full renovations. Licensed & insured.";
 $canonicalUrl    = "https://arkroofingpro.com/about";
-$ogImage         = "https://i.imgur.com/SbSVM6y.jpeg";
+$ogImage         = "/assets/images/ark-roofing-renovations-black-work-truck-with-du-480.webp";
 $currentPage     = "about";
-$heroImage       = "https://i.imgur.com/SbSVM6y.jpeg";
+$heroImage       = "/assets/images/ark-roofing-renovations-black-work-truck-with-du-480.webp";
 $useSwiper       = false;
 $useTilt         = false;
 $useTyped        = false;
@@ -22,7 +22,7 @@ $schemaMarkup    = '{
       "@type": "Organization",
       "name": "Ark Roofing & Renovations LLC",
       "url": "https://arkroofingpro.com",
-      "logo": "https://i.imgur.com/40hC7pw.jpeg",
+      "logo": "/assets/images/logo.jpeg",
       "foundingDate": "1992",
       "founder": {
         "@type": "Person",
@@ -74,7 +74,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
   </div>
 
   <!-- Hero -->
-  <section class="hero" style="background-image: url('https://i.imgur.com/SbSVM6y.jpeg'); min-height: 55vh;">
+  <section class="hero" style="background-image: url('/assets/images/ark-roofing-renovations-black-work-truck-with-du-480.webp'); min-height: 55vh;">
     <div class="container">
       <h1>About Ark Roofing &amp; Renovations &mdash; 33 Years Serving Tacoma</h1>
       <p>Founded by Wil Letourneau, Ark has protected Pierce County homes and businesses since 1992 with honest assessments and hands-on craftsmanship.</p>
@@ -106,7 +106,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </div>
         <div>
           <div class="img-reveal">
-            <img src="https://i.imgur.com/hXDarZa.jpeg" alt="Ark Roofing & Renovations crew vehicles at an active job site in Tacoma, WA" width="800" height="600" loading="lazy">
+            <img src="/assets/images/ark-roofing-renovations-crew-vehicles-at-an-acti-480.webp" alt="Ark Roofing & Renovations crew vehicles at an active job site in Tacoma, WA" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>
@@ -144,7 +144,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </div>
         <div>
           <div class="img-reveal">
-            <img src="https://i.imgur.com/DllQ5VJ.jpeg" alt="Roofing crew removing old materials during roof replacement project in Tacoma" width="800" height="600" loading="lazy">
+            <img src="/assets/images/roofing-crew-removing-damaged-roofing-material-f-960.webp" srcset="/assets/images/roofing-crew-removing-damaged-roofing-material-f-480.webp 480w, /assets/images/roofing-crew-removing-damaged-roofing-material-f-960.webp 960w, /assets/images/roofing-crew-removing-damaged-roofing-material-f-1600.webp 1600w" sizes="(max-width: 768px) 100vw, 800px" alt="Roofing crew removing old materials during roof replacement project in Tacoma" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>

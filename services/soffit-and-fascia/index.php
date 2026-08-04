@@ -2,9 +2,9 @@
 $pageTitle       = "Soffit & Fascia Repair in Tacoma, WA | Ark Roofing & Renovations";
 $pageDescription = "Soffit and fascia repair and replacement in Tacoma and Pierce County. Protect your roofline from rot, moisture, and pests. Licensed & insured. 33+ years experience. Free estimates.";
 $canonicalUrl    = "https://arkroofingpro.com/services/soffit-and-fascia";
-$ogImage         = "https://i.imgur.com/IFFYT83.jpeg";
+$ogImage         = "/assets/images/iffyt83-480.webp";
 $currentPage     = "services";
-$heroImage       = "https://i.imgur.com/IFFYT83.jpeg";
+$heroImage       = "/assets/images/iffyt83-480.webp";
 $useSwiper       = false;
 $useTilt         = false;
 $useTyped        = false;
@@ -36,7 +36,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span>/</span> <a href="/services">Services</a> <span>/</span> <strong>Soffit &amp; Fascia</strong></nav>
   </div>
 
-  <section class="hero" style="background-image: url('https://i.imgur.com/IFFYT83.jpeg'); min-height: 60vh;">
+  <section class="hero" style="background-image: url('/assets/images/iffyt83-480.webp'); min-height: 60vh;">
     <div class="container">
       <h1>Soffit &amp; Fascia Repair in Tacoma, WA</h1>
       <p>Protect your roofline from moisture, rot, and pests with professional soffit and fascia replacement across Pierce County.</p>
@@ -69,7 +69,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </div>
         <div>
           <div class="img-reveal">
-            <img src="https://i.imgur.com/Ax4CYwh.jpeg" alt="Home exterior showing roofline, soffit, fascia, and gutter system in Tacoma, WA" width="800" height="600" loading="lazy">
+            <img src="/assets/images/home-exterior-showing-roofline-soffit-fascia-and-480.webp" alt="Home exterior showing roofline, soffit, fascia, and gutter system in Tacoma, WA" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>

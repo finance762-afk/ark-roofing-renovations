@@ -2,9 +2,9 @@
 $pageTitle       = "Roof Cleaning & Moss Removal in Tacoma, WA | Ark Roofing & Renovations";
 $pageDescription = "Professional roof cleaning and moss removal in Tacoma and Pierce County. Soft wash methods, debris clearing, and preventive treatments. Extend your roof's lifespan. Free estimates.";
 $canonicalUrl    = "https://arkroofingpro.com/services/roof-cleaning";
-$ogImage         = "https://i.imgur.com/q0vb42l.jpeg";
+$ogImage         = "/assets/images/q0vb42l-480.webp";
 $currentPage     = "services";
-$heroImage       = "https://i.imgur.com/q0vb42l.jpeg";
+$heroImage       = "/assets/images/q0vb42l-480.webp";
 $useSwiper       = false;
 $useTilt         = false;
 $useTyped        = false;
@@ -36,7 +36,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
     <nav class="breadcrumbs" aria-label="Breadcrumb"><a href="/">Home</a> <span>/</span> <a href="/services">Services</a> <span>/</span> <strong>Roof Cleaning</strong></nav>
   </div>
 
-  <section class="hero" style="background-image: url('https://i.imgur.com/q0vb42l.jpeg'); min-height: 60vh;">
+  <section class="hero" style="background-image: url('/assets/images/q0vb42l-480.webp'); min-height: 60vh;">
     <div class="container">
       <h1>Roof Cleaning &amp; Moss Removal in Tacoma, WA</h1>
       <p>Moss removal, soft washing, and debris clearing to extend your roof's lifespan in the Pacific Northwest climate.</p>
@@ -69,7 +69,7 @@ include $_SERVER['DOCUMENT_ROOT'] . '/includes/nav.php';
         </div>
         <div>
           <div class="img-reveal">
-            <img src="https://i.imgur.com/touIPIj.jpeg" alt="Clean completed roof with clear shingles free of moss and debris in Tacoma" width="800" height="600" loading="lazy">
+            <img src="/assets/images/completed-dark-gray-roof-with-plumbing-vents-and-480.webp" alt="Clean completed roof with clear shingles free of moss and debris in Tacoma" width="800" height="600" loading="lazy">
           </div>
         </div>
       </div>

@@ -5,7 +5,7 @@
 /* --- CSS Reset --- */
 *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
 html { overflow-x: hidden; scroll-behavior: smooth; }
-img { display: block; max-width: 100%; }
+img { display: block; max-width: 100%; height: auto; }
 a { text-decoration: none; color: inherit; }
 
 @media (prefers-reduced-motion: reduce) {
@@ -351,7 +351,7 @@ a { text-decoration: none; color: inherit; }
 }
 
 /* --- Navbar --- */
-body { padding-top: var(--navbar-height); }
+body { padding-top: var(--navbar-height); overflow-x: hidden; }
 
 .navbar {
   position: fixed;

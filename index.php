@@ -44,11 +44,6 @@ $schemaMarkup    = '{
         "https://www.yelp.com/biz/ark-roofing-and-renovations-frederickson",
         "https://www.facebook.com/arkroofingpros/"
       ],
-      "aggregateRating": {
-        "@type": "AggregateRating",
-        "ratingValue": "5.0",
-        "reviewCount": "25"
-      },
       "priceRange": "$$",
       "areaServed": {
         "@type": "GeoCircle",

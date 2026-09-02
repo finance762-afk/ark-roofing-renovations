@@ -17,7 +17,7 @@ $schemaMarkup    = '{
       {"@type": "ListItem", "position": 3, "name": "Bathrooms", "item": "https://arkroofingpro.com/services/bathrooms"}
     ]},
     {"@type": "Service", "serviceType": "Bathroom Remodeling", "provider": {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "telephone": "+12537779683"}, "areaServed": {"@type": "City", "name": "Tacoma", "addressRegion": "WA"}},
-    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}},
+    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC" },
     {"@type": "FAQPage", "mainEntity": [
       {"@type": "Question", "name": "How long does a bathroom remodel take?", "acceptedAnswer": {"@type": "Answer", "text": "Basic update: 1-2 weeks. Full gut remodel: 3-4 weeks."}},
       {"@type": "Question", "name": "Can I use my bathroom during the remodel?", "acceptedAnswer": {"@type": "Answer", "text": "Not during an active gut remodel. If you have a second bathroom, you will use that. Otherwise we minimize downtime."}},

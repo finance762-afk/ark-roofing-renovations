@@ -28,10 +28,10 @@ $schemaMarkup    = '{
         "address": {"@type": "PostalAddress", "streetAddress": "18214 25th Ave E", "addressLocality": "Tacoma", "addressRegion": "WA", "postalCode": "98445"}
       },
       "areaServed": [
-        {"@type": "County", "name": "Pierce County", "containedInPlace": {"@type": "State", "name": "Washington"}},
-        {"@type": "County", "name": "King County (South)", "containedInPlace": {"@type": "State", "name": "Washington"}},
-        {"@type": "County", "name": "Thurston County", "containedInPlace": {"@type": "State", "name": "Washington"}},
-        {"@type": "County", "name": "Kitsap County", "containedInPlace": {"@type": "State", "name": "Washington"}}
+        {"@type": "AdministrativeArea", "name": "Pierce County", "containedInPlace": {"@type": "State", "name": "Washington"}},
+        {"@type": "AdministrativeArea", "name": "King County (South)", "containedInPlace": {"@type": "State", "name": "Washington"}},
+        {"@type": "AdministrativeArea", "name": "Thurston County", "containedInPlace": {"@type": "State", "name": "Washington"}},
+        {"@type": "AdministrativeArea", "name": "Kitsap County", "containedInPlace": {"@type": "State", "name": "Washington"}}
       ]
     },
     {"@type": "WebPage", "speakable": {"@type": "SpeakableSpecification", "cssSelector": [".answer-block", ".entity-block", "h1"]}}

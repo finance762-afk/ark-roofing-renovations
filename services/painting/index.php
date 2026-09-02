@@ -17,7 +17,7 @@ $schemaMarkup    = '{
       {"@type": "ListItem", "position": 3, "name": "Painting", "item": "https://arkroofingpro.com/services/painting"}
     ]},
     {"@type": "Service", "serviceType": "Painting", "provider": {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "telephone": "+12537779683"}, "areaServed": {"@type": "City", "name": "Tacoma", "addressRegion": "WA"}},
-    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}},
+    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC" },
     {"@type": "FAQPage", "mainEntity": [
       {"@type": "Question", "name": "How long does exterior paint last in Tacoma?", "acceptedAnswer": {"@type": "Answer", "text": "With proper prep and premium paint, exterior paint lasts 5-8 years on wood siding in the Pacific Northwest."}},
       {"@type": "Question", "name": "Can you paint in the rain?", "acceptedAnswer": {"@type": "Answer", "text": "No. Exterior paint needs dry surfaces and 24 hours without rain. Interior painting can proceed regardless of weather."}},

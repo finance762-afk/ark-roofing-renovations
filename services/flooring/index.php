@@ -17,7 +17,7 @@ $schemaMarkup    = '{
       {"@type": "ListItem", "position": 3, "name": "Flooring", "item": "https://arkroofingpro.com/services/flooring"}
     ]},
     {"@type": "Service", "serviceType": "Flooring Installation", "provider": {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "telephone": "+12537779683"}, "areaServed": {"@type": "City", "name": "Tacoma", "addressRegion": "WA"}},
-    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}},
+    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC" },
     {"@type": "FAQPage", "mainEntity": [
       {"@type": "Question", "name": "How long does flooring installation take?", "acceptedAnswer": {"@type": "Answer", "text": "Most rooms take 1-2 days. A full-house installation takes 3-5 days. Tile takes longer due to setting time."}},
       {"@type": "Question", "name": "Can you install flooring over existing floors?", "acceptedAnswer": {"@type": "Answer", "text": "In some cases, vinyl plank and laminate can go over existing hard surfaces if flat and in good condition."}}

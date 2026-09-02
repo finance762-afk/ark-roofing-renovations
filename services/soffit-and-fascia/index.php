@@ -17,7 +17,7 @@ $schemaMarkup    = '{
       {"@type": "ListItem", "position": 3, "name": "Soffit & Fascia", "item": "https://arkroofingpro.com/services/soffit-and-fascia"}
     ]},
     {"@type": "Service", "serviceType": "Soffit and Fascia Repair", "provider": {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "telephone": "+12537779683"}, "areaServed": {"@type": "City", "name": "Tacoma", "addressRegion": "WA"}},
-    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}},
+    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC" },
     {"@type": "FAQPage", "mainEntity": [
       {"@type": "Question", "name": "How do I know if my soffit or fascia needs replacement?", "acceptedAnswer": {"@type": "Answer", "text": "Look for peeling paint, visible rot, holes in soffit panels, birds nesting under eaves, water stains on overhangs, and gutters pulling away from the roofline."}},
       {"@type": "Question", "name": "What materials do you use for replacement?", "acceptedAnswer": {"@type": "Answer", "text": "We install aluminum soffit panels and pre-finished aluminum fascia wrapping. For homes wanting a wood look, we use primed PVC or composite boards."}}

@@ -17,7 +17,7 @@ $schemaMarkup    = '{
       {"@type": "ListItem", "position": 3, "name": "Emergency Services", "item": "https://arkroofingpro.com/services/emergency-services"}
     ]},
     {"@type": "Service", "serviceType": "Emergency Roofing and Repair", "provider": {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "telephone": "+12537779683"}, "areaServed": {"@type": "City", "name": "Tacoma", "addressRegion": "WA"}},
-    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}},
+    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC" },
     {"@type": "FAQPage", "mainEntity": [
       {"@type": "Question", "name": "Will my homeowners insurance cover storm damage repairs?", "acceptedAnswer": {"@type": "Answer", "text": "Most policies cover sudden storm damage including wind, hail, and fallen trees. They typically do not cover deferred maintenance."}},
       {"@type": "Question", "name": "What should I do while waiting for emergency repair?", "acceptedAnswer": {"@type": "Answer", "text": "Place buckets under leaks, move valuables, take photos for insurance. Do not go on the roof yourself."}},

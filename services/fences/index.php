@@ -17,7 +17,7 @@ $schemaMarkup    = '{
       {"@type": "ListItem", "position": 3, "name": "Fences", "item": "https://arkroofingpro.com/services/fences"}
     ]},
     {"@type": "Service", "serviceType": "Fence Installation", "provider": {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "telephone": "+12537779683"}, "areaServed": {"@type": "City", "name": "Tacoma", "addressRegion": "WA"}},
-    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}},
+    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC" },
     {"@type": "FAQPage", "mainEntity": [
       {"@type": "Question", "name": "How long does a cedar fence last in Tacoma?", "acceptedAnswer": {"@type": "Answer", "text": "Western red cedar fencing lasts 15-25 years in the Pacific Northwest depending on maintenance."}},
       {"@type": "Question", "name": "Can you repair sections of an existing fence?", "acceptedAnswer": {"@type": "Answer", "text": "Yes. If posts and rails are solid, we can replace damaged boards and reinforce leaning sections."}},

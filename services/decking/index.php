@@ -28,8 +28,7 @@ $schemaMarkup    = '{
     },
     {
       "@type": "LocalBusiness",
-      "name": "Ark Roofing & Renovations LLC",
-      "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}
+      "name": "Ark Roofing & Renovations LLC"
     },
     {
       "@type": "FAQPage",

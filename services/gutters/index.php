@@ -17,7 +17,7 @@ $schemaMarkup    = '{
       {"@type": "ListItem", "position": 3, "name": "Gutters", "item": "https://arkroofingpro.com/services/gutters"}
     ]},
     {"@type": "Service", "serviceType": "Gutter Installation and Repair", "provider": {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "telephone": "+12537779683"}, "areaServed": {"@type": "City", "name": "Tacoma", "addressRegion": "WA"}},
-    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}},
+    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC" },
     {"@type": "FAQPage", "mainEntity": [
       {"@type": "Question", "name": "How often should gutters be cleaned in the Pacific Northwest?", "acceptedAnswer": {"@type": "Answer", "text": "At minimum twice per year -- late fall after leaves drop and late spring. Homes near trees may need quarterly cleaning."}},
       {"@type": "Question", "name": "What size gutters do Tacoma homes need?", "acceptedAnswer": {"@type": "Answer", "text": "Most residential homes use 5-inch K-style gutters with 2x3-inch downspouts. Larger roof areas may need 6-inch gutters."}}

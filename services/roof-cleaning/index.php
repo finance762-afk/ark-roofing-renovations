@@ -17,7 +17,7 @@ $schemaMarkup    = '{
       {"@type": "ListItem", "position": 3, "name": "Roof Cleaning", "item": "https://arkroofingpro.com/services/roof-cleaning"}
     ]},
     {"@type": "Service", "serviceType": "Roof Cleaning", "provider": {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "telephone": "+12537779683"}, "areaServed": {"@type": "City", "name": "Tacoma", "addressRegion": "WA"}},
-    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}},
+    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC" },
     {"@type": "FAQPage", "mainEntity": [
       {"@type": "Question", "name": "How often should I clean my roof in Tacoma?", "acceptedAnswer": {"@type": "Answer", "text": "Every 1-2 years for most homes. North-facing slopes and homes near trees may need annual cleaning."}},
       {"@type": "Question", "name": "Will roof cleaning void my shingle warranty?", "acceptedAnswer": {"@type": "Answer", "text": "Not when done correctly with soft wash methods. Pressure washing voids most warranties."}}

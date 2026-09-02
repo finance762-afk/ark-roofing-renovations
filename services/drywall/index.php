@@ -17,7 +17,7 @@ $schemaMarkup    = '{
       {"@type": "ListItem", "position": 3, "name": "Drywall", "item": "https://arkroofingpro.com/services/drywall"}
     ]},
     {"@type": "Service", "serviceType": "Drywall Installation and Repair", "provider": {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "telephone": "+12537779683"}, "areaServed": {"@type": "City", "name": "Tacoma", "addressRegion": "WA"}},
-    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC", "aggregateRating": {"@type": "AggregateRating", "ratingValue": "5.0", "reviewCount": "25"}},
+    {"@type": "LocalBusiness", "name": "Ark Roofing & Renovations LLC" },
     {"@type": "FAQPage", "mainEntity": [
       {"@type": "Question", "name": "How long does drywall repair take?", "acceptedAnswer": {"@type": "Answer", "text": "Small patches: same day. Medium repairs: 2-3 days. Large repairs or full-room: 3-7 days."}},
       {"@type": "Question", "name": "Should I be concerned about mold behind water-damaged drywall?", "acceptedAnswer": {"@type": "Answer", "text": "Potentially yes. Drywall wet for more than 48 hours may develop mold. We always remove damaged drywall completely and inspect."}}
